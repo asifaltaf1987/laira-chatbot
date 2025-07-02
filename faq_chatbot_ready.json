@@ -1,0 +1,1758 @@
+[
+  {
+    "question":"What is the Research to Publication (RtoP) program?",
+    "answer":"Research to Publication is a research methodology and publishing program designed for doctors and healthcare researchers, developed by BMJ in collaboration with the University of California, San Francisco (UCSF)."
+  },
+  {
+    "question":"What does the RtoP program offer?",
+    "answer":"The RtoP program includes 8 multimedia courses that guide learners through the entire research process\u2014from study design to publication in an international journal."
+  },
+  {
+    "question":"Who provides the instruction in the RtoP program?",
+    "answer":"The program is led by BMJ research editors and UCSF academics."
+  },
+  {
+    "question":"What skills does RtoP aim to teach?",
+    "answer":"RtoP helps learners acquire skills to conduct healthcare research and address challenges related to publishing in international journals."
+  },
+  {
+    "question":"How many courses and modules are included in the RtoP program?",
+    "answer":"The program consists of 8 courses and 52 modules, offering over 200 hours of learning."
+  },
+  {
+    "question":"How can I access the RtoP program?",
+    "answer":"You can access the Research to Publication program through the library portal."
+  },
+  {
+    "question":"What do I need to register for the RtoP program?",
+    "answer":"You need to register your account using your RCSI email address."
+  },
+  {
+    "question":"What are the benefits of completing the RtoP program?",
+    "answer":"Benefits include improving research quality, advancing your career through publication, self-paced learning, understanding barriers to publication, contributing to better patient outcomes, and receiving a certificate of completion for each module."
+  },
+  {
+    "question":"Do I receive certification for the RtoP modules?",
+    "answer":"Yes, you receive a certificate of completion from BMJ and UCSF for every module passed."
+  },
+  {
+    "question":"What is Covidence?",
+    "answer":"Covidence is a web-based platform designed to streamline the process of conducting a comprehensive literature review, particularly for systematic reviews."
+  },
+  {
+    "question":"Who typically uses Covidence?",
+    "answer":"Covidence is primarily used by researchers conducting systematic reviews and is especially useful in health sciences, though it's suitable for any evidence-based academic discipline."
+  },
+  {
+    "question":"How can I create a Covidence account through RCSI Bahrain?",
+    "answer":"Visit the RCSI Bahrain Covidence Sign Up page, enter your name and RCSI email, and follow the email invitation to create an account."
+  },
+  {
+    "question":"Can I use Covidence if I'm not affiliated with RCSI Bahrain?",
+    "answer":"You can serve as a reviewer, but only RCSI Bahrain affiliates can create new reviews under the institutional license."
+  },
+  {
+    "question":"What can I do with Covidence?",
+    "answer":"Covidence allows you to conduct citation screening, full-text review, risk of bias assessment, data extraction, and data export, all within a single platform."
+  },
+  {
+    "question":"How do I start a new review in Covidence?",
+    "answer":"After signing in, click \"Create new review\" on the home page, select RCSI Bahrain as your organization, and input your review details."
+  },
+  {
+    "question":"How do I adjust review settings in Covidence?",
+    "answer":"Go to the review dashboard, click \u201cSettings,\u201d and under \"Review Settings,\" you can change the title, reviewer numbers, and criteria."
+  },
+  {
+    "question":"How do I add reviewers to a Covidence project?",
+    "answer":"Add reviewers via the Settings menu using their name and email; they must accept the invitation via email to join."
+  },
+  {
+    "question":"How do I customize screening criteria and exclusion reasons?",
+    "answer":"Navigate to \"Criteria & exclusion reasons\" in Settings to manage screening criteria, exclusion reasons, and highlights."
+  },
+  {
+    "question":"How do I import references into Covidence?",
+    "answer":"Click \"Import\" on your Review Summary page and upload references in EndNote XML, PubMed, or RIS text formats."
+  },
+  {
+    "question":"What is the file size and reference limit for imports?",
+    "answer":"You can import files up to 50 MB and 15,000 references per file."
+  },
+  {
+    "question":"How does Covidence handle duplicate references?",
+    "answer":"Covidence automatically checks for and removes duplicates during import, which are recorded in the PRISMA chart."
+  },
+  {
+    "question":"Can I undo an import in Covidence?",
+    "answer":"Yes, as long as no articles have been screened, you can undo an import via the Manage Imports menu."
+  },
+  {
+    "question":"How do I screen references in Covidence?",
+    "answer":"Use the Screen tab to assess title\/abstracts or full texts, voting Yes, No, or Maybe. Votes determine progression to next review stages."
+  },
+  {
+    "question":"How are screening conflicts resolved?",
+    "answer":"Conflicting votes are resolved on the Resolve Conflicts page, with blind voting to minimize bias."
+  },
+  {
+    "question":"What is the PRISMA diagram in Covidence?",
+    "answer":"The PRISMA diagram is auto-populated and updates as you progress, including duplicates and reasons for full-text exclusions."
+  },
+  {
+    "question":"How do I assess study quality in Covidence?",
+    "answer":"Use built-in or customized Quality Assessment templates, such as Cochrane Risk of Bias, after full-text review."
+  },
+  {
+    "question":"Can I use multiple tools in one review for Quality Assessment?",
+    "answer":"No, only one QA tool can be used per review, though you can mix domains from multiple tools within that form."
+  },
+  {
+    "question":"What is the data extraction process in Covidence?",
+    "answer":"After QA, extract data using a form that follows the PICO format. This form becomes the template for other studies."
+  },
+  {
+    "question":"How do I finalize data extraction?",
+    "answer":"After two reviewers extract data, compare and reach consensus\u2014this consensus data is used for exports."
+  },
+  {
+    "question":"How do I tag studies or references in Covidence?",
+    "answer":"Use predefined or custom tags in the Study Tags section or during review, which can also be used as filters."
+  },
+  {
+    "question":"What default tags are available in Covidence?",
+    "answer":"Covidence includes \u201cOngoing Study\u201d and \u201cAwaiting Classification\u201d as default tags, which are counted in the PRISMA flowchart."
+  },
+  {
+    "question":"Where can I find more help or training for Covidence?",
+    "answer":"Access Covidence webinars, YouTube videos, the Knowledge Base, or request consultations via bnair@rcsi-mub.com."
+  },
+  {
+    "question":"What are impact measures in research?",
+    "answer":"Impact measures are quantitative indicators, such as bibliometrics, used to evaluate research outputs for grant applications, promotions, and to demonstrate the influence of research."
+  },
+  {
+    "question":"Why should I measure or track my research impact?",
+    "answer":"Measuring impact can support job applications, funding renewals, new funding requests, and show how your research is being used."
+  },
+  {
+    "question":"What is bibliometrics?",
+    "answer":"Bibliometrics involves analyzing publication profiles and citations to assess a researcher's influence or impact."
+  },
+  {
+    "question":"What are common bibliometric indicators?",
+    "answer":"Impact factor and h-index are commonly used indicators in bibliometrics."
+  },
+  {
+    "question":"What is SciVal?",
+    "answer":"SciVal is a benchmarking tool using Scopus data to assess research performance, identify trends, and support strategic planning."
+  },
+  {
+    "question":"What can I do with SciVal?",
+    "answer":"You can benchmark performance, identify research trends and collaborators, and create reports for funding applications."
+  },
+  {
+    "question":"Why should I use multiple metrics instead of just one?",
+    "answer":"A range of metrics provides a fuller picture of research impact and should complement, not replace, peer review."
+  },
+  {
+    "question":"What are altmetrics?",
+    "answer":"Altmetrics track the early impact of research by monitoring social media, blogs, websites, and online reference managers."
+  },
+  {
+    "question":"How do altmetrics complement traditional metrics?",
+    "answer":"They offer insights into the broader impact and engagement of research beyond academia and are available more quickly than traditional citations."
+  },
+  {
+    "question":"Where can I find altmetrics?",
+    "answer":"Altmetrics are often embedded in databases like Scopus, EBSCOhost, ScienceDirect, ProQuest, and in platforms such as PlumX and Altmetric.com."
+  },
+  {
+    "question":"What are some strengths of altmetrics?",
+    "answer":"Altmetrics are timely and diverse, capturing engagement with research outputs beyond academic articles."
+  },
+  {
+    "question":"What is the Journal Impact Factor (IF)?",
+    "answer":"It is a measure of how often the average article in a journal is cited in a particular year."
+  },
+  {
+    "question":"Where can I find Journal Impact Factors?",
+    "answer":"Impact Factors are available through Journal Citation Reports (JCR), which covers about 7,500 journals."
+  },
+  {
+    "question":"How is Article Influence Score calculated?",
+    "answer":"It is derived by dividing the Eigenfactor by the number of articles in a journal, using a 5-year citation window."
+  },
+  {
+    "question":"What are limitations of journal metrics like JIF and Eigenfactor?",
+    "answer":"They do not assess individual article quality, vary across disciplines, can be manipulated, and don't necessarily reflect an author's influence."
+  },
+  {
+    "question":"Can journal metrics be compared across disciplines?",
+    "answer":"No, metrics like JIF and Eigenfactor should not be used to compare journals across different subject fields."
+  },
+  {
+    "question":"Where can I learn more about impact metrics?",
+    "answer":"Resources include the Metrics Toolkit, Altmetric for Researchers, and the SPARC primer on article-level metrics."
+  },
+  {
+    "question":"What is the Journal Impact Factor (JIF)?",
+    "answer":"The Journal Impact Factor is a measure of how often the average article in a journal has been cited in a particular year, based on data from Journal Citation Reports (JCR)."
+  },
+  {
+    "question":"Where can I access Journal Impact Factors?",
+    "answer":"Impact Factors are available exclusively through Journal Citation Reports (JCR), accessible via Web of Science through the library portal."
+  },
+  {
+    "question":"How is the Journal Impact Factor calculated?",
+    "answer":"JIF is calculated by averaging the number of citations received by articles published in a journal during the two preceding years."
+  },
+  {
+    "question":"How can I find top journals in my field?",
+    "answer":"Use bibliometric tools like JCR, CiteScore, EigenFactor, and Google Scholar Metrics. Rankings can vary by tool, metric, and subject scope."
+  },
+  {
+    "question":"What are some additional tools for journal rankings?",
+    "answer":"Tools include JCR, EigenFactor, CiteScore, Google Scholar Metrics, and curated journal lists like ERIH PLUS, ABDC, and ABS Journal Quality Guide."
+  },
+  {
+    "question":"What is CiteScore?",
+    "answer":"CiteScore measures the average citations per document a title receives over a 3-year period, using data from Scopus."
+  },
+  {
+    "question":"How does CiteScore differ from Impact Factor?",
+    "answer":"CiteScore uses a 3-year window and includes all document types indexed in Scopus, while JIF uses a 2-year window and includes only citable documents."
+  },
+  {
+    "question":"Where can I find CiteScore information?",
+    "answer":"CiteScores are available via Scopus Journal Metrics and cover over 22,000 titles across disciplines."
+  },
+  {
+    "question":"What is the SNIP metric?",
+    "answer":"SNIP (Source Normalized Impact per Paper) measures citation impact by considering citation practices of different fields, enabling field-normalized comparisons."
+  },
+  {
+    "question":"What is SJR?",
+    "answer":"SJR (SCImago Journal Rank) uses Scopus data to assess journal prestige by giving more weight to citations from high-ranking journals."
+  },
+  {
+    "question":"What is the EigenFactor score?",
+    "answer":"The EigenFactor score ranks journals based on incoming citations, with more weight given to citations from influential journals and excluding self-citations."
+  },
+  {
+    "question":"How is the EigenFactor score calculated?",
+    "answer":"It is based on a network of citations, adjusted for time researchers spend reading the journal, and uses a 5-year citation window."
+  },
+  {
+    "question":"Where can I find EigenFactor scores?",
+    "answer":"EigenFactor scores are available via Journal Citation Reports and the Eigenfactor website."
+  },
+  {
+    "question":"How does EigenFactor differ from Impact Factor?",
+    "answer":"EigenFactor considers citation source quality, removes self-citations, and normalizes across disciplines, unlike JIF which counts all citations equally."
+  },
+  {
+    "question":"What is the purpose of journal rating lists like ERIH PLUS or ABDC?",
+    "answer":"These lists offer additional guidance on journal quality, especially in fields where bibliometric scores may not be sufficient."
+  },
+  {
+    "question":"What is the purpose of the Library Research Support guide?",
+    "answer":"The guide is designed to direct RCSI Bahrain researchers to research-focused services and resources available through the Library."
+  },
+  {
+    "question":"What research support services are available to graduate students?",
+    "answer":"Graduate students can access support such as research consultations, systematic review guidance, managing references, and thesis\/dissertation help."
+  },
+  {
+    "question":"How can I get a research consultation?",
+    "answer":"Research consultation is available through the Library\u2019s Research Support service. Use the contact form or LibChat to get started."
+  },
+  {
+    "question":"What tools are recommended for managing references?",
+    "answer":"The guide includes resources for using EndNote (Windows and Mac) and Mendeley to manage references."
+  },
+  {
+    "question":"What is Covidence and how is it used?",
+    "answer":"Covidence is listed as a tool for researchers and supports systematic reviews."
+  },
+  {
+    "question":"How can I keep up with new research in my field?",
+    "answer":"Use the Current Awareness Service and set up alerts in tools like PubMed and Scopus."
+  },
+  {
+    "question":"What citation styles are supported?",
+    "answer":"The guide supports citation styles such as Harvard and Vancouver."
+  },
+  {
+    "question":"Where can I find support for writing and citing?",
+    "answer":"Writing, citing, and creating resources are available, including guidance on citation styles, TurnItIn, plagiarism, and poster creation."
+  },
+  {
+    "question":"How can I avoid predatory publishing?",
+    "answer":"The guide provides information on identifying predatory journals and choosing reputable places to publish."
+  },
+  {
+    "question":"What is the Institutional Repository?",
+    "answer":"It is a platform provided for sharing research outputs openly."
+  },
+  {
+    "question":"How do I access research impact services?",
+    "answer":"Impact services include ORCiD, ResearcherID, Scopus Author Profile, and Google Scholar Citations Profile."
+  },
+  {
+    "question":"Where can I find journal rankings and impact measures?",
+    "answer":"The guide includes links to tools and metrics for journal rankings and impact measures."
+  },
+  {
+    "question":"What should I know about copyright and fair use in publishing?",
+    "answer":"The guide includes resources on fair use, copyright permissions, and managing your own copyright."
+  },
+  {
+    "question":"How can I access specialized information resources?",
+    "answer":"Specialized resources are linked within the guide, such as PubMed, Web of Science, Google Scholar, and Research to Publication."
+  },
+  {
+    "question":"What is BrowZine?",
+    "answer":"BrowZine is a tool mentioned in the guide for inspiration and browsing scholarly journals."
+  },
+  {
+    "question":"What is Open Access?",
+    "answer":"Open Access is the free and unrestricted access to information, including journal articles, books, images, data, and other outputs, without financial, legal, or technical barriers."
+  },
+  {
+    "question":"Why is Open Access important?",
+    "answer":"Open Access promotes the global sharing of scholarly information and research, supporting unrestricted access to knowledge."
+  },
+  {
+    "question":"What is Open Access Week?",
+    "answer":"Open Access Week is an annual international event held in the last week of October to promote discussions on reducing barriers to accessing research publications."
+  },
+  {
+    "question":"What events are scheduled for Open Access Week 2024?",
+    "answer":"Events include workshops, author meet-and-greets, panel discussions, and showcases from October 21\u201324, 2024."
+  },
+  {
+    "question":"What is the purpose of the \"Finding the Right Open-Access Journal\" workshop?",
+    "answer":"The workshop helps students navigate open-access publishing, understand journal metrics, and avoid predatory journals."
+  },
+  {
+    "question":"What is the \"Meet Our Authors\" event about?",
+    "answer":"It provides students a chance to learn about the open-access publishing experiences of authors."
+  },
+  {
+    "question":"What happens during the \"Research Without Borders\" panel discussion?",
+    "answer":"Students and staff share their experiences with the scientific publication process to inspire future open-access authors."
+  },
+  {
+    "question":"What is the \"Blueprint to Publishing\" event?",
+    "answer":"It showcases open-access publications authored by students and staff."
+  },
+  {
+    "question":"Where can I find more information about the Open Access Week theme?",
+    "answer":"Visit https:\/\/www.openaccessweek.org\/ for current themes and additional information."
+  },
+  {
+    "question":"Who can I contact for more information about Open Access Week?",
+    "answer":"You can contact the library at librarian@rcsi-mub.com."
+  },
+  {
+    "question":"What does ORCID stand for?",
+    "answer":"ORCID stands for Open Researcher and Contributor Identifier."
+  },
+  {
+    "question":"Why should I register for an ORCID iD?",
+    "answer":"An ORCID iD distinguishes you from other researchers, improves recognition, reduces form-filling, and connects your research and affiliations throughout your career."
+  },
+  {
+    "question":"How do I register for an ORCID iD?",
+    "answer":"Visit orcid.org\/register and fill out the form, or register through your institutional credentials if available."
+  },
+  {
+    "question":"How can I use my ORCID iD?",
+    "answer":"Include it when submitting publications, applying for grants, and on academic profiles to ensure your work is accurately attributed."
+  },
+  {
+    "question":"How do I add works to my ORCID profile?",
+    "answer":"You can add works by linking to databases, importing BibTeX files, or entering information manually."
+  },
+  {
+    "question":"Can I import citations into ORCID from other databases?",
+    "answer":"Yes, ORCID supports importing from databases such as Scopus, Web of Science, CrossRef, and MLA International Bibliography."
+  },
+  {
+    "question":"How do I control the visibility of my ORCID profile?",
+    "answer":"You can set visibility to Public, Trusted parties, or Private for different parts of your ORCID record."
+  },
+  {
+    "question":"How do I link my ORCID to other research tools?",
+    "answer":"Link your ORCID to Scopus, Web of Science, ResearcherID, figshare, and other services to import works and enhance visibility."
+  },
+  {
+    "question":"What should I include in my ORCID profile?",
+    "answer":"Add a biography, education, employment, funding details, keywords, and links to profiles like RCSI repository or ResearchGate."
+  },
+  {
+    "question":"Can I have more than one ORCID iD?",
+    "answer":"No, you should only have one ORCID iD. If you have duplicates, remove the extra account via \"Account settings\"."
+  },
+  {
+    "question":"How do I assign someone else to manage my ORCID profile?",
+    "answer":"Under \"Account settings\", designate a trusted individual who can access and edit your ORCID record."
+  },
+  {
+    "question":"What are the benefits of making my ORCID profile public?",
+    "answer":"Making your profile public increases research visibility and allows integration with more systems."
+  },
+  {
+    "question":"Why should I add name variations to my ORCID profile?",
+    "answer":"Including name variations helps ensure all your publications are correctly attributed, especially if you've published under different names."
+  },
+  {
+    "question":"How is ORCID used by publishers and institutions?",
+    "answer":"Many publishers and funders require or support ORCID iDs to streamline submission processes and ensure accurate attribution."
+  },
+  {
+    "question":"What is PubMed?",
+    "answer":"PubMed is part of Medline, a large biomedical database with over 30 million records, covering topics like medicine, nursing, pharmacy, health care, biology, and biochemistry."
+  },
+  {
+    "question":"What subjects does PubMed cover?",
+    "answer":"PubMed includes articles from academic journals in medicine, nursing, pharmacy, health care, biology, and biochemistry."
+  },
+  {
+    "question":"What is MeSH in PubMed?",
+    "answer":"MeSH (Medical Subject Headings) is the National Library of Medicine\u2019s controlled vocabulary thesaurus used for indexing articles in PubMed."
+  },
+  {
+    "question":"How can MeSH terms help in PubMed searches?",
+    "answer":"MeSH terms help improve searches by allowing users to broaden or narrow search results more effectively."
+  },
+  {
+    "question":"How extensive is the MeSH vocabulary?",
+    "answer":"MeSH includes over 28,000 descriptors, more than 90,000 entry terms, and 240,000 supplementary concept records."
+  },
+  {
+    "question":"How should I conduct a basic search in PubMed?",
+    "answer":"Use simple, specific keywords in the search box. PubMed also suggests terms based on common searches."
+  },
+  {
+    "question":"What tools are available for searching in PubMed?",
+    "answer":"PubMed offers basic and advanced search options, and supports the use of MeSH for refined searching."
+  },
+  {
+    "question":"Where can I find a tutorial on subject searching in PubMed?",
+    "answer":"A video tutorial on subject searching in PubMed is mentioned in the document."
+  },
+  {
+    "question":"What is the National Library of Medicine (NLM)?",
+    "answer":"The NLM is a U.S. institution that manages PubMed and MeSH, and regularly posts updates on its services and job opportunities."
+  },
+  {
+    "question":"What is a ResearcherID?",
+    "answer":"ResearcherID is a unique identifier feature on Web of Science that links an author with their publications, regardless of name or affiliation variations."
+  },
+  {
+    "question":"How can I create a ResearcherID?",
+    "answer":"You can register via the Web of Science or the ResearcherID website by logging in through the library portal."
+  },
+  {
+    "question":"How do I add publications to my ResearcherID profile?",
+    "answer":"Search for your articles in Web of Science by author, then select and add them to your ResearcherID profile."
+  },
+  {
+    "question":"Is ResearcherID updated automatically?",
+    "answer":"No, you must manually keep your ResearcherID profile up to date."
+  },
+  {
+    "question":"What is a Scopus Author ID?",
+    "answer":"Scopus Author ID is an 11-digit identifier automatically assigned in Scopus and ScienceDirect to group an author's publications."
+  },
+  {
+    "question":"What if I have multiple Scopus profiles?",
+    "answer":"You can request profile amendments or merge profiles if more than one has been created."
+  },
+  {
+    "question":"What content types does Scopus index?",
+    "answer":"Scopus indexes peer-reviewed journals, trade publications, open-access journals, books, conference papers, and patents from over 5,000 publishers."
+  },
+  {
+    "question":"Can I link my Scopus profile with ORCID?",
+    "answer":"Yes, you can connect your Scopus author profile to your ORCID from the Author details page in Scopus."
+  },
+  {
+    "question":"What is Google Scholar Citations?",
+    "answer":"It is a feature that lets authors track citations to their work, check who is citing them, and compute citation metrics."
+  },
+  {
+    "question":"How do I create a Google Scholar profile?",
+    "answer":"Sign into Google with a Gmail account, go to Google Scholar, click \"My Citations,\" and follow prompts to add and manage your articles."
+  },
+  {
+    "question":"Should I enable automatic updates in Google Scholar?",
+    "answer":"If you have a common name, it\u2019s better to disable automatic updates to avoid incorrect article associations."
+  },
+  {
+    "question":"What is scholarly communication?",
+    "answer":"Scholarly communication refers to the process of creating, evaluating, disseminating, and preserving scholarly work."
+  },
+  {
+    "question":"What is Open Access (OA)?",
+    "answer":"Open Access is a publishing model that allows unrestricted online access to scholarly journal articles, books, data, and other outputs."
+  },
+  {
+    "question":"How does Open Access differ from traditional publishing?",
+    "answer":"Traditional publishing relies on paid subscriptions for access, whereas Open Access is freely available to anyone online."
+  },
+  {
+    "question":"What are Article Processing Charges (APCs)?",
+    "answer":"APCs are fees charged by some open access journals to publish an article. Not all OA journals charge APCs."
+  },
+  {
+    "question":"What is Green Open Access?",
+    "answer":"Green OA allows authors to deposit versions of their articles in institutional repositories like the RCSI Repository, possibly with embargoes."
+  },
+  {
+    "question":"What is the RCSI Repository?",
+    "answer":"It is an institutional repository that collects, preserves, and disseminates RCSI\u2019s research outputs online for open access."
+  },
+  {
+    "question":"Who mandates Open Access publishing at RCSI?",
+    "answer":"Funders such as Science Foundation Ireland (SFI), the Health Research Board (HRB), and the Irish Research Council (IRC) require OA publishing."
+  },
+  {
+    "question":"What is Plan S?",
+    "answer":"Plan S is an initiative by research funders to ensure that all publicly funded research is published in compliant open access journals or platforms."
+  },
+  {
+    "question":"What does Plan S require from researchers?",
+    "answer":"From January 2020, researchers must publish publicly funded research in compliant OA journals or platforms without embargoes."
+  },
+  {
+    "question":"What are some major Open Access book initiatives?",
+    "answer":"Initiatives include Radical Open Access, Knowledge Unlatched, and TOME (Toward an Open Monograph Ecosystem)."
+  },
+  {
+    "question":"What tools help determine article sharing rights?",
+    "answer":"Sherpa Romeo helps researchers understand publisher policies for archiving and sharing article versions."
+  },
+  {
+    "question":"What are the different article versions?",
+    "answer":"They include the Submitted Version (preprint), Accepted Version (postprint), and Published Version (version of record)."
+  },
+  {
+    "question":"What is the SPARC Author Addendum?",
+    "answer":"It is a tool provided by SPARC to help authors retain rights to their work when signing publishing agreements."
+  },
+  {
+    "question":"What are the pros of publishing Open Access?",
+    "answer":"OA increases visibility, accessibility, discoverability, and author control over copyright."
+  },
+  {
+    "question":"What are the cons of Open Access publishing?",
+    "answer":"Some OA journals charge APCs and there is a risk of predatory journals. OA is sometimes undervalued in tenure reviews."
+  },
+  {
+    "question":"What is the role of the RCSI Repository in OA?",
+    "answer":"It supports compliance with funder mandates, increases visibility, and archives institutional scholarly output."
+  },
+  {
+    "question":"How can I deposit research in the RCSI Repository?",
+    "answer":"Use the RIMS system to submit your work to the RCSI Repository for open access availability."
+  },
+  {
+    "question":"What is Scopus?",
+    "answer":"Scopus is the largest international abstract and citation database of peer-reviewed literature and quality web sources, indexing over 45.5 million records from 5,000 publishers."
+  },
+  {
+    "question":"What can I do with Scopus?",
+    "answer":"Scopus allows users to track citations, view h-index scores, analyze research trends, assess journals, manage research impact with ORCID, and identify collaborators or experts."
+  },
+  {
+    "question":"How do I create a search alert in Scopus?",
+    "answer":"Perform a search, click \u201cSet alert\u201d on the results page, enter your email, choose frequency, select status, and click \u201cSave\u201d or \u201cSet Alert.\u201d"
+  },
+  {
+    "question":"How do I conduct a basic document search in Scopus?",
+    "answer":"Use the default 'Document' search to find records containing your terms in specific fields."
+  },
+  {
+    "question":"What is Advanced Search in Scopus?",
+    "answer":"Advanced Search lets you use field codes, Boolean and proximity operators to perform more precise queries."
+  },
+  {
+    "question":"How can I exclude Medline records in Scopus searches?",
+    "answer":"Add AND NOT INDEX(medline) in your advanced search string."
+  },
+  {
+    "question":"What is an Affiliation Search in Scopus?",
+    "answer":"Affiliation Search finds documents and authors by institution. You can search using variations of an institution's name."
+  },
+  {
+    "question":"What is the Scopus Affiliation ID for RCSI Bahrain?",
+    "answer":"The Scopus Affiliation ID for RCSI Bahrain is 60107237."
+  },
+  {
+    "question":"How do I search for an author in Scopus?",
+    "answer":"Use the \u2018Author Search\u2019 tab, search by name or ORCID iD, and view their documents, citations, and profile details."
+  },
+  {
+    "question":"What is a Scopus Author Identifier?",
+    "answer":"It is a unique number assigned to each author to distinguish their works, especially in cases of name variations."
+  },
+  {
+    "question":"Where can I find an author's Scopus ID?",
+    "answer":"Run a search, click on the author's name in the results, and find the ID under their name and affiliation."
+  },
+  {
+    "question":"How can I review documents in Scopus?",
+    "answer":"Click on a document title to see full details like citation info, metrics, references, and related documents."
+  },
+  {
+    "question":"How do I export citations from Scopus?",
+    "answer":"Select the records, click \u201cExport,\u201d choose the desired format (e.g., EndNote, RefWorks), and confirm export options."
+  },
+  {
+    "question":"What types of alerts can I create in Scopus?",
+    "answer":"Scopus supports Search Alerts, Document Citation Alerts, and Author Citation Alerts to notify users of updates via email."
+  },
+  {
+    "question":"How do I frame a search strategy for research?",
+    "answer":"Begin by identifying main concepts in your topic, conduct a keyword search, analyze relevant results, and refine using subject headings or database thesauri."
+  },
+  {
+    "question":"What are subject headings in database searches?",
+    "answer":"Subject headings, like MeSH in Medline or CINAHL Headings in CINAHL, are standardized terms that improve search accuracy and relevance."
+  },
+  {
+    "question":"Why should I keep track of search terms?",
+    "answer":"Tracking terms prevents duplicate searches and helps refine strategy effectively."
+  },
+  {
+    "question":"What is Boolean search and how does it work?",
+    "answer":"Boolean search uses operators (AND, OR, NOT) to combine keywords and refine results."
+  },
+  {
+    "question":"How does the OR operator affect search results?",
+    "answer":"It broadens a search by retrieving results that contain any of the linked terms."
+  },
+  {
+    "question":"How does the AND operator affect search results?",
+    "answer":"It narrows a search by retrieving only records containing all linked terms."
+  },
+  {
+    "question":"How does the NOT operator work in database searches?",
+    "answer":"It excludes records containing a specified term, refining the search further."
+  },
+  {
+    "question":"How do I perform a phrase search?",
+    "answer":"Enclose phrases in quotation marks (e.g., \u201chearing impaired\u201d) to ensure words appear together in order."
+  },
+  {
+    "question":"What is truncation in search strategies?",
+    "answer":"Truncation uses a symbol (commonly ) to find word variants with different endings (e.g., child retrieves child, children, childhood)."
+  },
+  {
+    "question":"What are wildcard symbols in database searching?",
+    "answer":"Wildcards like ?, # replace characters in a word to capture spelling variations (e.g., wom#n finds woman or women)."
+  },
+  {
+    "question":"How does proximity searching work?",
+    "answer":"Proximity searching retrieves records with terms appearing close together, using operators like N (near) and W (within) with a number (e.g., dogs N5 cats)."
+  },
+  {
+    "question":"What is the difference between NEAR and WITHIN in proximity searches?",
+    "answer":"NEAR retrieves terms in any order within a set number of words; WITHIN retrieves terms in a specific order within a set distance."
+  },
+  {
+    "question":"What COVID-19 publication databases are recommended?",
+    "answer":"Recommended sources include PubMed (COVID trending), WHO COVID-19 publications database, Europe PMC, and NEJM Journal Watch."
+  },
+  {
+    "question":"Where can I find systematic reviews on COVID-19?",
+    "answer":"The EPPI Centre offers a living systematic map of COVID-19 evidence, categorizing articles from Embase and Medline."
+  },
+  {
+    "question":"What are reliable preprint sources for COVID-19 research?",
+    "answer":"Preprint platforms include Europe PMC, BioRxiv, MedRxiv, SSRN, and arXiv."
+  },
+  {
+    "question":"What resources provide COVID-19 clinical trial data?",
+    "answer":"Use ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform for clinical studies on COVID-19."
+  },
+  {
+    "question":"Where can I find genomic data for COVID-19?",
+    "answer":"Genomic data is available from GISAID and the NLM\u2019s SARS-CoV-2 Data Hub."
+  },
+  {
+    "question":"What funding sources are available for COVID-19 research?",
+    "answer":"Funding options include Crowdhelix Network, HRB COVID-19 Rapid Response Call, SFI\/Enterprise Ireland\/IDA COVID-19 initiatives, and European Commission tenders."
+  },
+  {
+    "question":"What are recommended information sources for diabetes and metabolic disease research?",
+    "answer":"Resources include NEJM Journal Watch articles covering treatments and risks related to diabetes and metabolic disorders."
+  },
+  {
+    "question":"What are some top journals for cardiovascular and metabolic research?",
+    "answer":"Journals include Circulation, JACC, Circulation Research, European Heart Journal, Hypertension, and Stroke."
+  },
+  {
+    "question":"What books are suggested for breast cancer research?",
+    "answer":"Recommended titles include Breast Cancer - Your Treatment Choices by Terry Priestman and Breast Cancer by Emma Pennery et al."
+  },
+  {
+    "question":"What are key sources for breast cancer research updates?",
+    "answer":"NEJM Journal Watch provides updates on chemotherapy effects, surgical strategies, and targeted treatments in breast cancer."
+  },
+  {
+    "question":"What is SPSS and what is it used for?",
+    "answer":"SPSS is a statistical software from IBM used for data collection and statistical analysis across various disciplines."
+  },
+  {
+    "question":"How is data entered in SPSS?",
+    "answer":"Data can be input using Data View and edited in Variable View; the interface differs slightly between Mac and PC versions."
+  },
+  {
+    "question":"What types of statistical tests can be performed in SPSS?",
+    "answer":"SPSS supports descriptive statistics, T-tests, chi-square, regression, correlation, and ANOVA."
+  },
+  {
+    "question":"What learning resources are available for SPSS?",
+    "answer":"Recommended books include Discovering Statistics Using IBM SPSS Statistics by Andy Field and SPSS Survival Manual by Julie Pallant."
+  },
+  {
+    "question":"What is NVivo used for?",
+    "answer":"NVivo is software for qualitative analysis of textual and audiovisual data, allowing for coding, annotation, visualization, and querying."
+  },
+  {
+    "question":"What are some new features of NVivo 12?",
+    "answer":"NVivo 12 includes auto-coding, improved navigation, transcription services, SPSS export, and codebook import\/export capabilities."
+  },
+  {
+    "question":"How does coding work in NVivo?",
+    "answer":"Coding involves tagging data into nodes to categorize themes, relationships, or sentiments using inductive or deductive approaches."
+  },
+  {
+    "question":"What query options does NVivo offer?",
+    "answer":"NVivo includes text search, word frequency, coding, matrix coding, crosstab, compound, coding comparison, and group queries."
+  },
+  {
+    "question":"What is R and how is it used?",
+    "answer":"R is a free, open-source statistical software for data analysis, graphics, and statistical computing, available via RStudio or Athena."
+  },
+  {
+    "question":"Where can I learn R?",
+    "answer":"Resources include R manuals, videos, online courses (Coursera, Udemy), R-bloggers, and the R Journal."
+  },
+  {
+    "question":"What are some topics covered in R tutorials?",
+    "answer":"R tutorials cover statistical functions, graphics, data manipulation, time series, survival analysis, and more."
+  },
+  {
+    "question":"What is Jamovi and who is it for?",
+    "answer":"Jamovi is free, open-source statistical software based on R with a GUI similar to SPSS, suitable for Windows, Mac, and Linux users."
+  },
+  {
+    "question":"What resources are available for learning Jamovi?",
+    "answer":"Users can access Jamovi tutorials from Datalab, the user guide, and video tutorials from FreeCodeCamp."
+  },
+  {
+    "question":"What is a systematic review?",
+    "answer":"A systematic review is a research method that summarizes results from available healthcare studies using rigorous, transparent, and reproducible methods."
+  },
+  {
+    "question":"How does a systematic review differ from a traditional literature review?",
+    "answer":"Systematic reviews use structured, transparent methods, while traditional reviews are more narrative and may lack reproducibility."
+  },
+  {
+    "question":"What are the key steps in conducting a systematic review?",
+    "answer":"Steps include formulating a research question, writing a protocol, searching literature, screening studies, assessing quality, extracting and analyzing data, and reporting results."
+  },
+  {
+    "question":"What is a scoping review?",
+    "answer":"A scoping review maps key concepts, types of evidence, and gaps in research without assessing the quality of included studies."
+  },
+  {
+    "question":"What is a rapid review?",
+    "answer":"A rapid review is a form of evidence synthesis that uses streamlined methods to produce evidence quickly."
+  },
+  {
+    "question":"How do I develop a research question for a systematic review?",
+    "answer":"Use the PICO (Population, Intervention, Comparison, Outcome) framework to structure your question."
+  },
+  {
+    "question":"What are inclusion and exclusion criteria in a systematic review?",
+    "answer":"These are predefined rules to determine which studies are included or excluded from the review."
+  },
+  {
+    "question":"What is the purpose of a systematic review protocol?",
+    "answer":"A protocol outlines the planned methods and minimizes bias, and can be registered on platforms like PROSPERO."
+  },
+  {
+    "question":"What databases should I search for a systematic review?",
+    "answer":"Common databases include PubMed, Embase, Cochrane Library, CINAHL, and Scopus."
+  },
+  {
+    "question":"What tools are used for managing references and screening studies?",
+    "answer":"Tools include EndNote for references and Covidence for screening, data extraction, and quality assessment."
+  },
+  {
+    "question":"How is quality assessed in a systematic review?",
+    "answer":"Quality is assessed using tools like the Cochrane Risk of Bias tool or other domain-based instruments."
+  },
+  {
+    "question":"What is data extraction in a systematic review?",
+    "answer":"Data extraction involves collecting key information from included studies for analysis."
+  },
+  {
+    "question":"What synthesis methods are used in systematic reviews?",
+    "answer":"Synthesis may include narrative synthesis, meta-analysis, or thematic analysis depending on study type."
+  },
+  {
+    "question":"How do I report the results of a systematic review?",
+    "answer":"Use the PRISMA guidelines to ensure comprehensive and transparent reporting."
+  },
+  {
+    "question":"What is PRISMA?",
+    "answer":"PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) provides guidelines for reporting systematic reviews."
+  },
+  {
+    "question":"What is Web of Science?",
+    "answer":"Web of Science is a platform of literature search databases designed to support scientific and scholarly research."
+  },
+  {
+    "question":"How can I register for Web of Science?",
+    "answer":"Click on the \u201cSign In\u201d button on the Web of Science landing page and select \u201cRegister.\u201d The same credentials work for EndNote online, ResearcherID, and InCites."
+  },
+  {
+    "question":"What can I do with a Web of Science ResearcherID?",
+    "answer":"You can track publications, citations, peer reviews, and editorial work, and generate reports for promotion or funding. It also aids in author name disambiguation."
+  },
+  {
+    "question":"How can I create a Publons profile?",
+    "answer":"Visit publons.com, click \u201cCreate a Publons Profile,\u201d and register using the same email as your Web of Science or EndNote account. Link your ORCID to import publications."
+  },
+  {
+    "question":"How does Web of Science help find collaborators?",
+    "answer":"Use the \u201cAnalyze Results\u201d tool on search results to identify top authors and institutions active in your research area."
+  },
+  {
+    "question":"How can I find highly cited journals in my field using Web of Science?",
+    "answer":"Use Journal Citation Reports (JCR) to search by category, quartile, or open access status to identify journals suitable for manuscript submission."
+  },
+  {
+    "question":"What do JCR quartiles mean?",
+    "answer":"JCR quartiles classify journals by impact: Q1 (top 25%), Q2 (25\u201350%), Q3 (50\u201375%), and Q4 (bottom 25%) based on Journal Impact Factor."
+  },
+  {
+    "question":"How do I find which journals publish the most papers on my topic?",
+    "answer":"Search your topic in Web of Science, then use the \u201cAnalyze Results\u201d tool and select \u201cSource Titles\u201d to identify the most active journals."
+  },
+  {
+    "question":"What are the benefits of linking ORCID with Publons?",
+    "answer":"Linking ORCID and Publons enables automatic syncing of publications and verified peer review records, enhancing your research visibility."
+  },
+  {
+    "question":"How can I identify potential journals to publish in?",
+    "answer":"You can identify journals by searching where similar articles have been published and using tools like JANE, Elsevier Journal Finder, Springer Journal Selector, and WoS Manuscript Matcher."
+  },
+  {
+    "question":"What resources can help me evaluate journal acceptance rates?",
+    "answer":"Use Cabell\u2019s Scholarly Analytics or check the journal\u2019s website. Contact the editor directly if acceptance rates are not listed."
+  },
+  {
+    "question":"How can I assess the credibility of a journal?",
+    "answer":"Use the Think. Check. Submit. checklist, evaluate impact factors, peer review practices, and editorial boards, and confirm listings in directories like DOAJ."
+  },
+  {
+    "question":"What are predatory journals?",
+    "answer":"Predatory journals exploit the open access model by charging fees without providing legitimate editorial or peer review services."
+  },
+  {
+    "question":"How can I identify predatory publishers?",
+    "answer":"Watch for fast publication promises, fake impact factors, unknown editorial boards, poor-quality publications, and missing contact details."
+  },
+  {
+    "question":"What is a predatory conference?",
+    "answer":"These events solicit participation through spam, charge fees, and often lack credible speakers or proper organization."
+  },
+  {
+    "question":"What tools can help avoid predatory publishing?",
+    "answer":"Use Think. Check. Submit., Be iNFORMEd checklist, and directories like DOAJ and Quality Open Access Market."
+  },
+  {
+    "question":"What are journal impact factors and how are they calculated?",
+    "answer":"Impact Factor = citations in a year to items published in the previous two years \u00f7 number of citable items. Provided by Journal Citation Reports (JCR)."
+  },
+  {
+    "question":"What are alternative journal metrics to Impact Factor?",
+    "answer":"Alternatives include CiteScore, SJR (SCImago Journal Rank), SNIP (Source Normalized Impact per Paper), and Eigenfactor."
+  },
+  {
+    "question":"What does the h-index measure?",
+    "answer":"The h-index measures an author's productivity and citation impact. Available via Scopus, Web of Science, and Google Scholar."
+  },
+  {
+    "question":"What is the i10-index?",
+    "answer":"Used only by Google Scholar, it counts the number of publications with at least 10 citations."
+  },
+  {
+    "question":"What is Gold Open Access?",
+    "answer":"Entire journals are open access and typically charge Article Processing Charges (APCs) to authors."
+  },
+  {
+    "question":"What is Hybrid Open Access?",
+    "answer":"Subscription-based journals offer the option for individual articles to be open access via APCs."
+  },
+  {
+    "question":"What are some reputable open access initiatives for books?",
+    "answer":"Radical Open Access, Knowledge Unlatched, and TOME are notable OA book initiatives."
+  },
+  {
+    "question":"What organizations promote publishing standards and ethics?",
+    "answer":"DOAJ, COPE, OASPA, ROAD.ISSN.org, and WAME promote ethical publishing practices."
+  },
+  {
+    "question":"Who can I contact for help with publishing decisions?",
+    "answer":"Contact your Research Support Librarian or use the guide\u2019s contact details for assistance."
+  },
+  {
+    "question":"What is a literature review?",
+    "answer":"A literature review systematically analyzes scholarly writings related to a specific research question to provide background, show correspondence with the topic, and support further research."
+  },
+  {
+    "question":"What types of projects require a literature review?",
+    "answer":"Projects may include honors papers, capstone projects, theses, dissertations, research articles, grant proposals, and evidence-based practice reports."
+  },
+  {
+    "question":"What is not considered a literature review?",
+    "answer":"A literature review is not an annotated bibliography or a research paper supporting one side; it must critically analyze and reflect all sides of the argument."
+  },
+  {
+    "question":"Why is a literature review important?",
+    "answer":"It provides background, shows significance, identifies gaps, challenges assumptions, explores themes, and suggests future research directions."
+  },
+  {
+    "question":"How do I define a good research question for a literature review?",
+    "answer":"Choose a topic that's not too broad or narrow, conduct preliminary searches, and use frameworks like PICO, SPICE, or ECLIPSE to define key concepts."
+  },
+  {
+    "question":"What are the key elements of a literature review?",
+    "answer":"Discuss the theory, explain the methodology used in the research, and identify gaps that your research will address."
+  },
+  {
+    "question":"What steps are involved in framing a search strategy?",
+    "answer":"Identify main concepts, conduct a keyword search, find subject headings (like MeSH), and perform a refined search using those terms."
+  },
+  {
+    "question":"What is the benefit of using subject headings in searches?",
+    "answer":"Subject headings improve relevance and precision by using database-specific controlled vocabulary like MeSH in Medline or CINAHL Headings."
+  },
+  {
+    "question":"How should I organize search terms?",
+    "answer":"Break the research question into 2\u20134 concepts and use synonyms, plural\/singular forms, acronyms, and subject headings for each."
+  },
+  {
+    "question":"What are good databases to search for published literature?",
+    "answer":"Recommended databases include Cochrane Library, Medline, Web of Knowledge, and SCOPUS."
+  },
+  {
+    "question":"What are some subject-specific resources?",
+    "answer":"Resources include CINAHL Plus (nursing), PsycInfo (psychology), and Health Research Premium Collection."
+  },
+  {
+    "question":"What is grey literature and why is it important?",
+    "answer":"Grey literature includes non-indexed sources like reports, theses, and policies. It reduces publication bias in research."
+  },
+  {
+    "question":"Where can I find grey literature?",
+    "answer":"Sources include OpenGrey, NLM resources (e.g., HSRProj), OpenDOAR, Bielefeld BASE, RIAN, Lenus, and the RCSI Repository."
+  },
+  {
+    "question":"Where can I find theses for literature reviews?",
+    "answer":"Use ProQuest Dissertations & Theses, EThOS, and DART-Europe for international and European theses."
+  },
+  {
+    "question":"How should a literature review be structured?",
+    "answer":"Include an introduction, main body (organized by theme, chronology, or methodology), and a conclusion summarizing gaps and future directions."
+  },
+  {
+    "question":"What should I avoid in writing a literature review?",
+    "answer":"Avoid biased views, jargon, plagiarism, misrepresentation, and overly definitive statements. Use objective, clear language."
+  },
+  {
+    "question":"What referencing styles are recommended?",
+    "answer":"The guide supports Harvard and Vancouver referencing styles."
+  },
+  {
+    "question":"What tools can help manage references and reviews?",
+    "answer":"Tools include EndNote (reference management), Covidence (systematic reviews), PRISMA, Abstrackr, and DistillerSR."
+  },
+  {
+    "question":"Are there any research support services available in addition to RtoP?",
+    "answer":"Yes, the library offers additional support such as one-on-one research consultations, guidance on systematic reviews, referencing help (EndNote), and assistance with journal selection."
+  },
+  {
+    "question":"Can the RtoP  program be accessed remotely or only on campus?",
+    "answer":"RtoP is fully online and self-paced, allowing researchers to access content remotely at their convenience."
+  },
+  {
+    "question":"How is RtoP different from other online research courses?",
+    "answer":"RtoP is specifically tailored for healthcare professionals and is developed in collaboration with BMJ and the University of California, San Francisco, offering a blend of global publishing expertise and academic credibility."
+  },
+  {
+    "question":"When should I consider doing a systematic review?",
+    "answer":"Systematic reviews are best suited when there is a well-defined research question and a need to summarize all existing evidence to inform practice, policy, or further research."
+  },
+  {
+    "question":"Does the library provide support for conducting systematic reviews?",
+    "answer":"Yes, the library offers training on search strategies, citation management, and tools like Covidence. We also help with database selection and PRISMA documentation."
+  },
+  {
+    "question":"Can I collaborate with others on Covidence?",
+    "answer":"Yes, you can invite team members to work collaboratively on the same project, assign roles, and track progress across stages."
+  },
+  {
+    "question":"Does the library offer training or help with Covidence?",
+    "answer":"Yes, we provide one-on-one support, group training, and guidance on using Covidence efficiently, especially for title\/abstract screening and PRISMA reporting."
+  },
+  {
+    "question":"What is the role of Creative Commons licenses in open access publishing?",
+    "answer":"Creative Commons licenses define how others can use your work. Most OA journals use CC BY, which allows reuse with attribution, supporting wider dissemination."
+  },
+  {
+    "question":"What are the different types of Creative Commons licenses and how do they vary?",
+    "answer":"Creative Commons licenses range from the most open (CC BY) to more restrictive (e.g., CC BY-NC-ND). They vary by allowing or restricting commercial use, modifications, and attribution requirements."
+  },
+  {
+    "question":"Is it mandatory to include a Creative Commons license when publishing in an open access journal?",
+    "answer":"Not always. Some journals apply a default license, while others allow authors to choose. Authors should check the journal's OA policy."
+  },
+  {
+    "question":"Can Creative Commons licenses be used for non-academic content like photos and videos?",
+    "answer":"Yes, CC licenses are widely used for images, videos, music, and educational materials, not just academic content."
+  },
+  {
+    "question":"What is academic integrity?",
+    "answer":"Academic integrity is the commitment to honesty, ethical behavior, and respect for others\u2019 work in all academic activities, including research, assessments, and learning."
+  },
+  {
+    "question":"Why is academic integrity important at RCSI?",
+    "answer":"Academic integrity is essential at RCSI as it reflects the core values of professionalism, honesty, and accountability. It ensures the credibility of academic work, supports a fair learning environment, and safeguards the reputation of both students and the institution."
+  },
+  {
+    "question":"What are the core values of academic integrity at RCSI?",
+    "answer":"Responsibility, Respect, Fairness, Honesty, Trust, and Courage."
+  },
+  {
+    "question":"What is the Academic Integrity Module (AIM)?",
+    "answer":"AIM is a mandatory online module that all undergraduate and postgraduate students must complete in their first semester."
+  },
+  {
+    "question":"What constitutes academic misconduct?",
+    "answer":"Academic misconduct includes plagiarism, cheating, falsification, contract cheating, impersonation, collusion, and other dishonest academic behaviors."
+  },
+  {
+    "question":"What is plagiarism and how can it be avoided?",
+    "answer":"Plagiarism is using someone else\u2019s work without acknowledgment. Avoid it by citing sources properly, paraphrasing with attribution, and using Turnitin."
+  },
+  {
+    "question":"What is contract cheating?",
+    "answer":"Contract cheating involves getting another person or service to complete academic work on your behalf, often for payment."
+  },
+  {
+    "question":"How can students avoid contract cheating?",
+    "answer":"Plan your schedule, seek help from professors or librarians, and use institutional support resources."
+  },
+  {
+    "question":"What is falsification in academic work?",
+    "answer":"Falsification involves misrepresenting or fabricating information or research data for academic credit."
+  },
+  {
+    "question":"How can I avoid falsification?",
+    "answer":"Manage time well, complete assignments independently, and understand proper citation practices."
+  },
+  {
+    "question":"What is self-plagiarism?",
+    "answer":"Self-plagiarism is submitting the same work for more than one course without permission."
+  },
+  {
+    "question":"How can I avoid self-plagiarism?",
+    "answer":"Cite your own previous work, ensure new content is original, and disclose reused material to instructors or editors."
+  },
+  {
+    "question":"What is impersonation in academic settings?",
+    "answer":"Impersonation includes taking a test for someone else or having someone take a test on your behalf."
+  },
+  {
+    "question":"How can I avoid impersonation issues?",
+    "answer":"Prepare in advance, attend your own assessments, and seek help if you're struggling."
+  },
+  {
+    "question":"What is collusion in academic work?",
+    "answer":"Collusion is a form of academic misconduct involving unauthorized collaboration between students. It occurs when one student allows another to copy, use, or significantly edit their work, presenting it as their own, which undermines independent learning and assessment integrity."
+  },
+  {
+    "question":"How can I avoid collusion?",
+    "answer":"Avoid sharing work unless instructed to collaborate, and do not allow others to proofread your assignments unless approved."
+  },
+  {
+    "question":"What are students\u2019 responsibilities regarding academic integrity?",
+    "answer":"Students must ensure submitted work is their own, cite all sources, and be honest in representing their contributions."
+  },
+  {
+    "question":"What are the consequences of academic misconduct at RCSI?",
+    "answer":"Consequences range from warnings (Level 1), formal records (Level 2), to disciplinary hearings (Level 3) based on the severity of the misconduct."
+  },
+  {
+    "question":"Who can I contact for support regarding academic integrity?",
+    "answer":"Contact Dr. Bindhu Nair at bnair@rcsi-mub.com or Dr. Suchita Dsilva at sdsilva@rcsi-mub.com."
+  },
+  {
+    "question":"What is referencing?",
+    "answer":"Referencing is a method used to show you\u2019ve conducted appropriate reading and research by acknowledging sources when you quote, copy, paraphrase, or summarize others' work."
+  },
+  {
+    "question":"Why do I need to reference?",
+    "answer":"Referencing enhances your writing, strengthens academic arguments, shows your information sources, and allows readers to verify your work."
+  },
+  {
+    "question":"What is the Vancouver referencing style?",
+    "answer":"Vancouver Style is a numbered referencing system used primarily in medicine and science, following rules from the ICMJE and maintained by the U.S. National Library of Medicine."
+  },
+  {
+    "question":"How are in-text citations formatted in Vancouver style?",
+    "answer":"In-text citations appear as numbers in superscript or in parentheses, corresponding to a numbered reference list."
+  },
+  {
+    "question":"How is the Vancouver reference list organized?",
+    "answer":"The reference list is numbered sequentially in the order citations appear in the text and includes only cited works."
+  },
+  {
+    "question":"Do I use the same reference number for repeat citations?",
+    "answer":"Yes, once a source is cited, the same number is reused in all subsequent citations."
+  },
+  {
+    "question":"What should I do if there is no publication date?",
+    "answer":"Include as much information as possible; consult referencing guidelines for cases with missing dates."
+  },
+  {
+    "question":"How do I cite a source with no identifiable author?",
+    "answer":"Use the title of the source in place of the author in the reference list."
+  },
+  {
+    "question":"What is the difference between a reference list and a bibliography?",
+    "answer":"A reference list includes only cited works; a bibliography may include all consulted materials, cited or not."
+  },
+  {
+    "question":"Should I reference lecture notes?",
+    "answer":"This depends on your faculty\u2019s requirements\u2014check their policy or ask your instructor."
+  },
+  {
+    "question":"How do I cite multiple references at once in Vancouver style?",
+    "answer":"Use hyphens for inclusive numbers (e.g., 3-6) and commas for non-sequential numbers (e.g., 3,9,17)."
+  },
+  {
+    "question":"What are examples of sources referenced in Vancouver style?",
+    "answer":"Sources include books, journal articles, web pages, conference papers, theses, emails, interviews, podcasts, and more."
+  },
+  {
+    "question":"How should I cite web pages or websites?",
+    "answer":"Cite the title, responsible organization, publication date (if available), and full URL. Format depends on whether it's a professional or general source."
+  },
+  {
+    "question":"Do I need to cite images and figures?",
+    "answer":"Yes, cite all images, whether from print or online sources, with appropriate details."
+  },
+  {
+    "question":"How do I cite content from apps like UpToDate or DynaMed?",
+    "answer":"Include the app name, publisher, year, and access date. Specific formats are available for each app type."
+  },
+  {
+    "question":"What is the purpose of the Library Support Guides for Research Summer School participants?",
+    "answer":"The guides help participants learn literature search strategies, choose search terms, and access different scholarly sources."
+  },
+  {
+    "question":"What is Primo?",
+    "answer":"Primo is the discovery tool at RCSI Bahrain Library that enables users to search books, articles, and other resources in one location."
+  },
+  {
+    "question":"How can I access PubMed?",
+    "answer":"PubMed can be accessed through the Library Support Guide and includes instructions on how to search and save searches."
+  },
+  {
+    "question":"What databases are accessible via the library portal?",
+    "answer":"Accessible databases include MEDLINE, Health Research Premium, Science Direct, Scopus, and Web of Science."
+  },
+  {
+    "question":"What is Covidence used for?",
+    "answer":"Covidence is a tool designed to streamline systematic reviews by assisting healthcare professionals and researchers in evidence synthesis."
+  },
+  {
+    "question":"What is PRISMA?",
+    "answer":"PRISMA provides a minimum set of items for reporting in literature reviews, systematic reviews, and meta-analyses."
+  },
+  {
+    "question":"What tool can help in writing a literature review?",
+    "answer":"The guide includes a Literature Review Matrix (Excel format) to help compare and contrast findings in the literature."
+  },
+  {
+    "question":"What is PROSPERO?",
+    "answer":"PROSPERO is an international database of prospectively registered systematic reviews in health and social care."
+  },
+  {
+    "question":"What resources are available for global health statistics?",
+    "answer":"Resources include the WHO Global Health Observatory, CDC Data & Statistics, and the National Center for Health Statistics."
+  },
+  {
+    "question":"What referencing styles are supported?",
+    "answer":"The guide supports Harvard and Vancouver referencing styles."
+  },
+  {
+    "question":"What tools are available for managing references?",
+    "answer":"Reference management tools include EndNote 20 for Mac and Mendeley."
+  },
+  {
+    "question":"Where can I find laboratory research protocols?",
+    "answer":"Protocol resources include Cold Spring Harbor Protocols, PLoS ONE, Springer\/Nature Protocols, Wiley-Blackwell Current Protocols, and WHO IRIS laboratory manuals."
+  },
+  {
+    "question":"What subjects are covered in Cold Spring Harbor Protocols?",
+    "answer":"Subjects include antibodies, genomics, cell biology, electrophoresis, immunology, PCR, proteins, RNAi, stem cells, and more."
+  },
+  {
+    "question":"How many protocols are available through Springer\/Nature Protocols?",
+    "answer":"Over 60,000 protocols and methods are available in life and biomedical sciences."
+  },
+  {
+    "question":"What areas are covered by Wiley-Blackwell Current Protocols?",
+    "answer":"Topics include bioinformatics, genetics, immunology, MRI, microbiology, molecular biology, protein science, and toxicology."
+  },
+  {
+    "question":"What is the Harvard referencing style?",
+    "answer":"Harvard is an author-date citation style where in-text references link to a full list of sources at the end."
+  },
+  {
+    "question":"How do I cite in-text using Harvard style?",
+    "answer":"Cite with the author\u2019s surname and year of publication, e.g., (Henderson, 2005), or include the author in the sentence."
+  },
+  {
+    "question":"How do I cite a source with two or three authors?",
+    "answer":"List all authors in the citation, e.g., (Barros, Read & Verdejo, 2008)."
+  },
+  {
+    "question":"How do I cite a source with four or more authors?",
+    "answer":"Use the first author's surname followed by \"et al.\", e.g., (van Alphen et al., 2007)."
+  },
+  {
+    "question":"How do I cite works by the same author in the same year?",
+    "answer":"Add lowercase letters after the year, e.g., (Goldacre, 2008a; Goldacre, 2008b)."
+  },
+  {
+    "question":"How do I cite a chapter from an edited book?",
+    "answer":"Cite the chapter's author, not the editor of the book."
+  },
+  {
+    "question":"What is secondary referencing?",
+    "answer":"When citing a source mentioned in another work, name both authors, e.g., Colluzzi and Pappagallo (2005) as cited by Holding et al. (2008)."
+  },
+  {
+    "question":"How do I cite direct quotations in Harvard style?",
+    "answer":"Use single quotation marks and include the page number, e.g., (Simons, Menzies & Matthews, 2001, p.4)."
+  },
+  {
+    "question":"How do I cite images, tables, or diagrams?",
+    "answer":"Treat them as direct quotes: cite the author and page number in-text and in the figure\/table caption."
+  },
+  {
+    "question":"How do I cite a source with no author?",
+    "answer":"Use a corporate author or 'Anon' if none is available, e.g., (Department of Health, 2009)."
+  },
+  {
+    "question":"How do I cite multimedia works?",
+    "answer":"Use the title or uploader\u2019s name as the author. For online videos, cite the uploader (which may be a username)."
+  },
+  {
+    "question":"How do I cite interviews or personal communication?",
+    "answer":"Use the interviewee\u2019s surname as the author."
+  },
+  {
+    "question":"What is the difference between a reference list and a bibliography?",
+    "answer":"A reference list includes only cited works; a bibliography may include all materials consulted."
+  },
+  {
+    "question":"Can I use footnotes in Harvard referencing?",
+    "answer":"Footnotes are generally not used in Harvard referencing."
+  },
+  {
+    "question":"What should I cite and what can I omit?",
+    "answer":"Cite all information that is not common knowledge and that you use to support your research."
+  },
+  {
+    "question":"Who can I contact for help with Harvard referencing?",
+    "answer":"Contact Dr. Bindhu Nair (bnair@rcsi-mub.com) or visit the Information Services Desk."
+  },
+  {
+    "question":"What is EndNote 21 used for?",
+    "answer":"EndNote 21 is reference management software that helps users collect, organize, and cite research sources efficiently."
+  },
+  {
+    "question":"How do I install EndNote 21 on Windows?",
+    "answer":"Download it from the RCSI Bahrain Library portal. If you have EndNote 20, uninstall it before installing EndNote 21."
+  },
+  {
+    "question":"What should I do before installing EndNote 21?",
+    "answer":"Uninstall any previous version of EndNote (e.g., EndNote 20) before installing version 21."
+  },
+  {
+    "question":"What file types are associated with an EndNote library?",
+    "answer":"EndNote libraries have a .enl file and a .Data folder. Both must be kept in the same location."
+  },
+  {
+    "question":"Can I store my EndNote library on a cloud drive?",
+    "answer":"No, do not store your EndNote library on OneDrive, Dropbox, or any network\/cloud drive as it may corrupt the files."
+  },
+  {
+    "question":"How do I manually add references in EndNote?",
+    "answer":"Click \u201cNew Reference\u201d and fill in the details, ensuring the reference type matches the source."
+  },
+  {
+    "question":"How can I import references from a database like PubMed?",
+    "answer":"Use direct export, RIS files, or drag and drop citations into your EndNote library."
+  },
+  {
+    "question":"How do I insert citations into Microsoft Word using EndNote?",
+    "answer":"Use the \u201cInsert Citation\u201d feature under the EndNote tab in Word to add citations directly from your library."
+  },
+  {
+    "question":"How do I format a bibliography in Word with EndNote?",
+    "answer":"Select the citation style (e.g., Harvard or Vancouver) from the EndNote tab in Word, and the bibliography will format automatically."
+  },
+  {
+    "question":"How do I find full text for references in EndNote?",
+    "answer":"Highlight references and click \u201cFind Full Text.\u201d If institutional access exists, PDFs will be downloaded and attached."
+  },
+  {
+    "question":"Can I share my EndNote library?",
+    "answer":"Yes, EndNote allows library sharing with up to 100 people via EndNote Online or synced libraries."
+  },
+  {
+    "question":"What are groups and smart groups in EndNote?",
+    "answer":"Groups are custom collections of references; Smart Groups auto-populate based on search criteria."
+  },
+  {
+    "question":"How can I back up my EndNote library?",
+    "answer":"Use \u201cFile > Compressed Library\u201d to save a .enlx file for backup or transfer."
+  },
+  {
+    "question":"Who can I contact for help with EndNote?",
+    "answer":"Contact the library\u2019s Information Services Desk or email librarian@rcsi-mub.com for support."
+  },
+  {
+    "question":"What resources does the Library & Learning Resource Center (LRC) offer?",
+    "answer":"The LRC offers access to physical facilities, online databases, e-books, recommended reading lists, and subject-specific guides."
+  },
+  {
+    "question":"What can I find in the Online Library?",
+    "answer":"The Online Library provides access to research databases, e-books, and digital resources tailored to various academic levels and courses."
+  },
+  {
+    "question":"How can I learn to use the library effectively?",
+    "answer":"Use the workshops, videos, and tutorials available through the library to learn at your own pace."
+  },
+  {
+    "question":"Why should I use the library instead of just using Google?",
+    "answer":"Library resources are curated, reliable, often free (via subscription), organized, verifiable, and more comprehensive than standard web searches."
+  },
+  {
+    "question":"What types of study spaces are available in the library?",
+    "answer":"Options include silent study areas, individual study carrels, computer workstations, and group study rooms."
+  },
+  {
+    "question":"How do I book a group study room?",
+    "answer":"Use the room booking system to reserve a room, check in and out using a QR code, and ensure at least two students per reservation."
+  },
+  {
+    "question":"How can I find a book in the library?",
+    "answer":"Use the online PRIMO Search to locate books and reserve them using your RCSI login credentials."
+  },
+  {
+    "question":"Who can borrow library materials?",
+    "answer":"All registered RCSI Bahrain students and staff can borrow materials using a valid ID card."
+  },
+  {
+    "question":"What is the policy for borrowing high-demand items?",
+    "answer":"High-demand items may be placed on short loan to ensure fair access for all users."
+  },
+  {
+    "question":"What are the fines for overdue library books?",
+    "answer":"Overdue fines are 0.100 fils per day per item."
+  },
+  {
+    "question":"What should I do if I lose a library book?",
+    "answer":"Report the loss immediately to library staff. You are responsible for replacement costs until the book is returned and cleared."
+  },
+  {
+    "question":"How do I access the library\u2019s electronic resources?",
+    "answer":"Use Primo to search and log in using your RCSI Bahrain credentials. Contact IT if you experience login issues."
+  },
+  {
+    "question":"What should I do if the library doesn\u2019t have an article I need?",
+    "answer":"Submit a Document Delivery Request form to order the full text."
+  },
+  {
+    "question":"Can I request the library to purchase a book?",
+    "answer":"Yes, visit the LRC office to complete an order form and make a cash payment in advance. Orders take 6\u20138 weeks."
+  },
+  {
+    "question":"Who are the main library staff contacts?",
+    "answer":"Key contacts include Dr. Bindhu Nair (Head of Library Services), Mr. Asif Altaf, Dr. Suchita Dsilva, Mr. Muhammad Zeeshan, and Ms. Hanna George."
+  },
+  {
+    "question":"How can I get help with library services?",
+    "answer":"Email librarian@rcsi-mub.com, call 16660018, use LibChat, or schedule a one-on-one consultation online."
+  },
+  {
+    "question":"What is EndNote 21 for Mac used for?",
+    "answer":"EndNote 21 is reference management software designed to help users organize, cite, and collaborate on research using a centralized, searchable library."
+  },
+  {
+    "question":"How can I sync EndNote across devices?",
+    "answer":"Use the EndNote Sync feature to synchronize your library across up to three personal computers and mobile devices, provided you own and use all devices."
+  },
+  {
+    "question":"Can I share my EndNote library with others?",
+    "answer":"Yes, you can share your EndNote library with up to 1,000 co-authors or colleagues through the library sharing feature."
+  },
+  {
+    "question":"What are the new features in EndNote 21 for Mac?",
+    "answer":"New features include tag organization, library\/data restoration, Word Online and Google Docs integration, improved duplicate detection, and retraction alerts."
+  },
+  {
+    "question":"How do I create a new EndNote library?",
+    "answer":"Open EndNote from the Applications folder, and a default library named \"My EndNote Library\" will be created with a .enl file and .Data folder."
+  },
+  {
+    "question":"How do I change the referencing style in EndNote?",
+    "answer":"Click the drop-down in the bottom-right corner and select your desired referencing style."
+  },
+  {
+    "question":"How do I import references from Primo or databases?",
+    "answer":"Search and export citations using the RIS format from platforms like Primo, PubMed, Scopus, or Cochrane, then open the file to import into EndNote."
+  },
+  {
+    "question":"How can I import references from Google Scholar?",
+    "answer":"Enable the \"Import into EndNote\" setting under Google Scholar\u2019s Settings \u2192 Bibliography Manager, then click the link under a citation to download a .enw file."
+  },
+  {
+    "question":"What is the process for creating manual references?",
+    "answer":"Use \u201cNew Reference,\u201d select the reference type, fill in required fields, save, and preview the record in your chosen citation style."
+  },
+  {
+    "question":"How do I import PDFs into EndNote?",
+    "answer":"Use File > Import > File and select \"PDF\" under Import Options. EndNote will auto-extract reference data if available."
+  },
+  {
+    "question":"How can I attach PDFs manually to references?",
+    "answer":"Use the \"+ Attach PDF\" option in the reference panel after saving the PDF to your computer."
+  },
+  {
+    "question":"How do I manage and organize references into groups?",
+    "answer":"Create a group under the \u201cGroups\u201d menu, then drag references or use \"Add References To\" to move them into the group."
+  },
+  {
+    "question":"What is the use of tags in EndNote?",
+    "answer":"Tags can be added in the Tags field within a reference for better organization and searchability."
+  },
+  {
+    "question":"How can I find full-text articles using EndNote?",
+    "answer":"Use the \u201cFind Full Text\u201d feature, ensuring the OpenURL Path is set to RCSI's link resolver to retrieve PDFs or URLs."
+  },
+  {
+    "question":"How do I remove duplicates in EndNote?",
+    "answer":"Use Library > Find Duplicates to compare and manage duplicate references. You can delete or manually review duplicates."
+  },
+  {
+    "question":"What are the best practices for sharing an EndNote library?",
+    "answer":"Create a compressed library (.enlx file) and send via email. The recipient opens it through EndNote to decompress and use the references."
+  },
+  {
+    "question":"How do I use EndNote with Microsoft Word?",
+    "answer":"Use the \u201cInsert Citation\u201d feature in the EndNote tab. To troubleshoot visibility, ensure the CWYW add-in is enabled and automation permissions are set."
+  },
+  {
+    "question":"How can I edit or remove a citation in Word using EndNote?",
+    "answer":"Use \u201cEdit & Manage Citation(s)\u201d in the EndNote tab to add page numbers, exclude details, or remove the citation."
+  },
+  {
+    "question":"Where can I find more EndNote training and support?",
+    "answer":"Access videos and resources at Clarivate\u2019s EndNote Training Hub or email librarian@rcsi-mub.com."
+  },
+  {
+    "question":"What is artificial intelligence (AI)?",
+    "answer":"AI refers to computer systems performing tasks that usually require human intelligence, including machine learning and deep learning."
+  },
+  {
+    "question":"What are common applications of AI in everyday life?",
+    "answer":"Examples include voice assistants like Siri, translation tools like Google Translate, and more complex uses in business and education."
+  },
+  {
+    "question":"Can students use AI tools in their coursework?",
+    "answer":"Students should use AI responsibly and only when permitted; coursework should generally be completed independently without unauthorized AI assistance."
+  },
+  {
+    "question":"How can students use AI effectively for learning?",
+    "answer":"AI can help summarize notes, generate study questions, check grammar, brainstorm topics, and simulate real-world research practices."
+  },
+  {
+    "question":"What is the CREATE framework for AI prompting?",
+    "answer":"CREATE stands for Character, Request, Examples, Adjustments, Type, and Extras\u2014guidelines for crafting effective AI prompts."
+  },
+  {
+    "question":"What are some recommended AI tools for education and research?",
+    "answer":"Tools include ChatGPT, DALL\u00b7E 2, Jasper, Elicit, ResearchRabbit, Scholarcy, Scite.ai, Semantic Scholar, and Trinka."
+  },
+  {
+    "question":"How should AI-generated content be cited?",
+    "answer":"Cite the AI tool with the company name and year, and include the full chat transcript as an appendix if needed. APA citation examples are provided."
+  },
+  {
+    "question":"What are the ethical concerns when using generative AI?",
+    "answer":"Issues include bias, accuracy, academic dishonesty, copyright ambiguity, overreliance, and data privacy risks."
+  },
+  {
+    "question":"What AI detection tools are available for educators?",
+    "answer":"Detection tools include AI Detector Pro, CopyLeaks, GPTZero, GPT-2 Output Detector, Scribbr, Turnitin AI Writing Detector, and Winston."
+  },
+  {
+    "question":"Who holds the copyright of AI-generated content?",
+    "answer":"Copyright laws are unclear; generally, AI-generated content is not considered to have human authorship and may not be copyrightable."
+  },
+  {
+    "question":"How should RCSI learners approach AI use?",
+    "answer":"Use AI ethically and consult course guidelines or instructors. Misuse of AI, like using it to complete assignments, may constitute plagiarism."
+  },
+  {
+    "question":"What is the 'Find a Seat' service?",
+    "answer":"It is an online service that allows registered RCSI Bahrain members to reserve library study rooms."
+  },
+  {
+    "question":"Who can use the study rooms?",
+    "answer":"Study rooms are available to students seeking collaborative study space."
+  },
+  {
+    "question":"How long can I book a study room for?",
+    "answer":"Rooms can be booked for up to 2 hours."
+  },
+  {
+    "question":"What zones are available for booking?",
+    "answer":"Bookings can be made in the Red Zone and Green Zone."
+  },
+  {
+    "question":"How do I make a room booking?",
+    "answer":"Log in to the 'Find a Seat' service with your RCSI Bahrain email, choose a zone, select a room, and follow the prompts to complete your booking."
+  },
+  {
+    "question":"What do I need to bring to access a reserved room?",
+    "answer":"Bring your confirmation email and RCSI ID."
+  },
+  {
+    "question":"What are the occupancy rules for study rooms?",
+    "answer":"A minimum of 2 people is required per room, and you must scan the QR code to check in and out."
+  },
+  {
+    "question":"Can I make more than one reservation a day?",
+    "answer":"No, each user can only make one reservation per day."
+  },
+  {
+    "question":"What happens if I don't occupy the room within 30 minutes of the booking time?",
+    "answer":"The room becomes available for others to use."
+  },
+  {
+    "question":"How do I cancel a booking I no longer need?",
+    "answer":"Cancel it through the 'Find a Seat' service so others can reserve it."
+  },
+  {
+    "question":"What happens if someone tries to monopolize study rooms?",
+    "answer":"It is considered a breach of the Library's Code of Conduct."
+  },
+  {
+    "question":"Are there any rules on moving furniture in the library?",
+    "answer":"No, students should not move chairs or tables; furniture placement is optimized for safety and efficiency."
+  },
+  {
+    "question":"What are the check-in procedures for reserved rooms?",
+    "answer":"Scan the QR code or enter the 3-digit code upon arrival and scan again when leaving."
+  },
+  {
+    "question":"What safety measures are in place for study rooms?",
+    "answer":"Regular cleaning, availability of hand sanitizer and disinfectant materials, and adherence to social distancing and mask-wearing protocols."
+  },
+  {
+    "question":"What are current awareness services?",
+    "answer":"These are tools that help users stay updated with the latest literature in their field through automated alerts and updates."
+  },
+  {
+    "question":"What is a search alert service?",
+    "answer":"It automatically runs saved database searches and delivers the results via email or RSS feed."
+  },
+  {
+    "question":"What is a citation alert service?",
+    "answer":"It sends notifications whenever a chosen article is cited by new publications."
+  },
+  {
+    "question":"What is a Journal Issue or TOC alert?",
+    "answer":"It notifies users via email or RSS feed whenever a new issue of a selected journal is published."
+  },
+  {
+    "question":"How do I save searches in PubMed?",
+    "answer":"Sign in to My NCBI, run your search in PubMed, and click \"Save Search\" to create alerts."
+  },
+  {
+    "question":"How can I set up alerts in ScienceDirect?",
+    "answer":"On the results page, click 'Set search alert', name your alert, choose the frequency, and save it."
+  },
+  {
+    "question":"How do I create alerts in Web of Science?",
+    "answer":"Register an account, run a search, then click 'Create Alert' from the left panel and fill out the popup form."
+  },
+  {
+    "question":"What current awareness resources are available for medicine?",
+    "answer":"Journals like NEJM, The Lancet, and BMC Medicine offer website and RSS feeds for recent research updates."
+  },
+  {
+    "question":"What nursing journals provide current awareness updates?",
+    "answer":"BMC Nursing, Journal of Pediatric Nursing, and The Journal for Nurse Practitioners provide updates and feeds."
+  },
+  {
+    "question":"Can I receive alerts from PubMed for full-text availability?",
+    "answer":"Yes, customize My NCBI preferences to include full-text links in your PubMed alerts."
+  },
+  {
+    "question":"How can I contact the library for help with current awareness tools?",
+    "answer":"Reach out to the library if you have trouble accessing databases or setting up alerts."
+  },
+  {
+    "question":"What is the Book Request Service?",
+    "answer":"It is an online service for borrowing and returning print resources from the Library collection at RCSI Bahrain."
+  },
+  {
+    "question":"Who can use the Book Request Service?",
+    "answer":"All RCSI Bahrain students and staff can use this service."
+  },
+  {
+    "question":"How many books can I request at one time?",
+    "answer":"You can request up to 5 books from the main library collection."
+  },
+  {
+    "question":"How do I submit a book request?",
+    "answer":"Log in to Primo using your RCSI email ID and password, search for books, and submit a request for available titles."
+  },
+  {
+    "question":"What happens after I submit a request?",
+    "answer":"Library staff retrieve the book, scan it, and place it on a hold shelf. You'll be notified via email once it's ready."
+  },
+  {
+    "question":"How will I know when my book is ready for pickup?",
+    "answer":"An email will be sent to your RCSI email address with a collection date once the book is ready."
+  },
+  {
+    "question":"Where do I collect requested books?",
+    "answer":"Collect your books from the Information Services Desk."
+  },
+  {
+    "question":"How long will the library hold my requested books?",
+    "answer":"Requested books will be held for two days following the notification email."
+  },
+  {
+    "question":"What happens if I don't collect the books within two days?",
+    "answer":"If not collected within two days, the books will be reshelved."
+  },
+  {
+    "question":"What is the Libby app?",
+    "answer":"Libby is a free app that allows RCSI Bahrain users to borrow ebooks and audiobooks from the Library & Learning Resource Centre."
+  },
+  {
+    "question":"How do I get started with Libby?",
+    "answer":"Install the Libby app, find RCSI - Medical University of Bahrain, and sign in with your VLE username and password."
+  },
+  {
+    "question":"What do I need to use Libby?",
+    "answer":"You need your VLE credentials, internet access, and a device like a smartphone, tablet, or e-reader with the Libby app installed."
+  },
+  {
+    "question":"How many titles can I borrow on Libby at once?",
+    "answer":"You can check out up to 2 titles at a time."
+  },
+  {
+    "question":"How long can I borrow titles on Libby?",
+    "answer":"Titles can be borrowed for up to 7 days."
+  },
+  {
+    "question":"Are there late fees for Libby titles?",
+    "answer":"No, titles are automatically returned at the end of the lending period, so there are no late fees."
+  },
+  {
+    "question":"Can I place a hold on books in Libby?",
+    "answer":"Yes, you can place a hold on up to 3 titles at a time."
+  },
+  {
+    "question":"How can I view my place in the hold queue in Libby?",
+    "answer":"Go to Shelf > Holds and tap the calendar icon to view your spot in line and other wait list details."
+  },
+  {
+    "question":"How can I customize my browsing experience in Libby?",
+    "answer":"Tap \u201cPreferences\u201d on your library's home screen to adjust filters and sorting options, then tap \u201cApply Preferences.\u201d"
+  },
+  {
+    "question":"How can I explore book recommendations in Libby?",
+    "answer":"Tap \u201cExplore\u201d on your library's home screen to search by subject, popularity, availability, and more."
+  },
+  {
+    "question":"Can I add more than one library in Libby?",
+    "answer":"Yes, tap the Libby icon > \u201cAdd a Library,\u201d then search by name or zip code."
+  },
+  {
+    "question":"Where can I get help with Libby?",
+    "answer":"Use the in-app support or visit help.libbyapp.com, or email librarian@rcsi-mub.com or aaltaf@rcsi-mub.com."
+  },
+  {
+    "question":"Can I search Primo without logging in?",
+    "answer":"Yes, you can search as a guest, but you won\u2019t see circulation rules or have access to full-text resources."
+  },
+  {
+    "question":"Why should I log in to Primo?",
+    "answer":"Logging in with your RCSI Bahrain username and password provides a more accurate search experience and access to full-text resources and borrowing features."
+  },
+  {
+    "question":"What should I do if I can\u2019t log in to Primo?",
+    "answer":"Contact IT at helpdesk@rcsi-mub.com to reset your password."
+  },
+  {
+    "question":"What happened to the Heritage catalog?",
+    "answer":"Primo replaced the Heritage catalog on January 31, 2023, consolidating print and electronic collections into one search platform."
+  },
+  {
+    "question":"Do I need to log in to borrow or access full-text resources?",
+    "answer":"Yes, logging in is required to borrow items and access full-text electronic resources."
+  },
+  {
+    "question":"How can I search for books in Primo?",
+    "answer":"Use either the Basic or Advanced Search options to locate books in the library collection."
+  },
+  {
+    "question":"How do I search for articles in Primo?",
+    "answer":"Enter keywords or article titles in the search bar and use filters to refine results to journal articles."
+  },
+  {
+    "question":"How do I search for journals in Primo?",
+    "answer":"Use the Advanced Search and select \u201cJournal Title\u201d to find specific journals."
+  },
+  {
+    "question":"How do I renew books in Primo?",
+    "answer":"Sign in to your library account in Primo to view your loans and renew eligible items."
+  },
+  {
+    "question":"What are Boolean operators in Primo searching?",
+    "answer":"Boolean operators like AND, OR, and NOT help refine search results and can be used in both Basic and Advanced Search modes."
+  }
+]
