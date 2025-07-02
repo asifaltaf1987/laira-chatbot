@@ -21,7 +21,7 @@ docs = [Document(page_content=f"Q: {item['question']}\nA: {item['answer']}") for
 
 # Split, embed, and store documents
 split_docs = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100).split_documents(docs)
-embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vectordb = FAISS.from_documents(split_docs, embedding)
 qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=vectordb.as_retriever())
 
