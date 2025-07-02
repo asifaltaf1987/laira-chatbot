@@ -1,6 +1,6 @@
 openai
-langchain
-chromadb
+langchain==0.0.310
+chromadb==0.4.22
 streamlit
 tiktoken
 pandas
