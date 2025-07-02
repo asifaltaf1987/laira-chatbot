@@ -1,7 +1,8 @@
-openai
 langchain==0.0.310
+langchain-core
 chromadb==0.4.22
 streamlit
+openai
 tiktoken
 pandas
 beautifulsoup4
