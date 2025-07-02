@@ -1,5 +1,5 @@
 langchain==0.1.14
-langchain-core==0.1.37
+langchain-core==0.1.57
 langchain-community==0.0.38
 chromadb==0.4.22
 streamlit
