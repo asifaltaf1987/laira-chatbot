@@ -7,3 +7,4 @@ tiktoken
 pandas
 beautifulsoup4
 requests
+faiss-cpu
