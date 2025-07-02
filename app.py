@@ -18,7 +18,7 @@ docs = [Document(page_content=f"Q: {item['question']}\nA: {item['answer']}") for
 # Split, embed, and store documents
 split_docs = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100).split_documents(docs)
 embedding = OpenAIEmbeddings()
-vectordb = Chroma.from_documents(split_docs, embedding, persist_directory="faq_db")
+vectordb = Chroma.from_documents(split_docs, embedding)
 qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(temperature=0), retriever=vectordb.as_retriever())
 
 # Agent setup for external tools
