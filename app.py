@@ -1,11 +1,11 @@
 import streamlit as st
 import json
 from langchain_core.documents import Document
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from tools import search_primo, search_google_scholar, search_libguides
 
@@ -18,7 +18,7 @@ docs = [Document(page_content=f"Q: {item['question']}\nA: {item['answer']}") for
 # Split, embed, and store documents
 split_docs = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100).split_documents(docs)
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.embeddings.openai import embed_with_retry
+embedding = OpenAIEmbeddings()
 
 class SafeOpenAIEmbeddings(OpenAIEmbeddings):
     def embed_documents(self, texts):
