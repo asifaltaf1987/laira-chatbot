@@ -1,25 +1,29 @@
 import streamlit as st
-import pandas as pd
-from langchain.schema import Document
+import json
 from langchain_core.documents import Document
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
+from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from tools import search_primo, search_google_scholar, search_libguides
 
-# Load FAQ
-df = pd.read_csv("faq_chatbot_ready.csv")
-docs = [Document(page_content=f"Q: {row['question']}\nA: {row['answer']}") for _, row in df.iterrows()]
+# Load FAQ from JSON
+with open("faq_chatbot_ready.json", "r") as f:
+    faq_data = json.load(f)
+
+docs = [Document(page_content=f"Q: {item['question']}\nA: {item['answer']}") for item in faq_data]
+
+# Split, embed, and store documents
 split_docs = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100).split_documents(docs)
 embedding = OpenAIEmbeddings()
 vectordb = Chroma.from_documents(split_docs, embedding, persist_directory="faq_db")
-qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=vectordb.as_retriever())
+qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(temperature=0), retriever=vectordb.as_retriever())
 
-# Agent setup
+# Agent setup for external tools
 tools = [search_primo, search_google_scholar, search_libguides]
-agent = initialize_agent(tools, ChatOpenAI(), agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
+agent = initialize_agent(tools, ChatOpenAI(temperature=0), agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
 
 # Streamlit UI
 st.set_page_config(page_title="Ask LAIRA")
