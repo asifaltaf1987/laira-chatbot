@@ -17,16 +17,24 @@ import os
 st.set_page_config(page_title="Library AI Assistant", layout="wide")
 st.title("📚 Library AI Assistant")
 
+# Select search scope once and store in session
+search_scope = st.radio("Search Scope", ["Library Only", "Global Web"])
+st.session_state["search_mode"] = "global" if search_scope == "Global Web" else "library"
+
 # Set API keys and environment
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 embedding = OpenAIEmbeddings()
 vectorstore = Chroma(persist_directory="db", embedding_function=embedding)
-llm = ChatOpenAI(temperature=0, model_name="gpt-4")
+llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, temperature=0, model_name="gpt-4")
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
 # Tools
 tools = [
-    Tool(name="Google Search", func=google_search, description="Searches Google for current info"),
+    Tool(
+        name="Google Search",
+        func=lambda q: google_search(q, st.session_state.get("search_mode", "library")),
+        description="Searches Google in either Library Only or Global Web mode"
+    ),
     Tool(name="Scholar", func=scholar_search, description="Searches Google Scholar"),
     Tool(name="Catalog", func=catalog_search, description="Searches Library Catalog")
 ]
@@ -38,15 +46,21 @@ if input_mode == "🎤 Voice":
     query = recognize_speech()
     st.info(f"Recognized: {query}")
 else:
-    query = st.text_input("Ask me anything about the library, research, or resources:", "What are the library hours?")
+    query = st.text_input("Ask me anything about the library, research, or resources:", value="")
 
 # Response
 if st.button("Submit") and query:
-    retriever_chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vectorstore.as_retriever(), memory=memory)
+with st.spinner("Thinking..."):
+    retriever_chain = ConversationalRetrievalChain.from_llm(
+        llm=llm,
+        retriever=vectorstore.as_retriever(),
+        memory=memory
+    )
     response = retriever_chain.run(query)
-    st.markdown(f"### 🤖 Response:\n{response}")
-    display_thoughts(query)
-    text_to_speech(response)
+
+st.markdown(f"### 🤖 Response:\n{response}")
+display_thoughts(query, tool_used="RAG Vector Retrieval")
+text_to_speech(response)
 
 # Show full memory
 with st.expander("🧠 Conversation History"):

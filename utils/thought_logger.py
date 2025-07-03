@@ -1,5 +1,6 @@
-import streamlit as st
-
-def display_thoughts(query):
+def display_thoughts(query, tool_used=None):
     st.markdown("---")
-    st.markdown(f"🧠 **Thoughts**: I retrieved context using embeddings for: *{query}*")
+    msg = f"🧠 **Thoughts**: Retrieved relevant context for: *{query}*"
+    if tool_used:
+        msg += f" using **{tool_used}**."
+    st.markdown(msg)
