@@ -12,3 +12,5 @@ pyaudio
 google-api-python-client
 serpapi
 scholarly
+playsound==1.2.2
+faiss-cpu
