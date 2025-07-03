@@ -1,25 +1,29 @@
-import streamlit as st
 import speech_recognition as sr
 from gtts import gTTS
-import os
+from playsound import playsound
 import tempfile
-import playsound
+import os
 
 def recognize_speech():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        st.info("🎤 Listening... Please speak now.")
+        print("Listening...")
         audio = r.listen(source)
     try:
-        text = r.recognize_google(audio)
-        return text
+        query = r.recognize_google(audio)
+        return query
     except sr.UnknownValueError:
-        return "Sorry, I could not understand the audio."
+        return "Sorry, I couldn't understand your speech."
     except sr.RequestError:
-        return "Speech recognition service is not available."
+        return "Speech recognition service is unavailable."
 
 def text_to_speech(text):
-    tts = gTTS(text=text, lang='en')
-    with tempfile.NamedTemporaryFile(delete=True, suffix=".mp3") as fp:
-        tts.save(fp.name)
-        playsound.playsound(fp.name)
+    try:
+        tts = gTTS(text)
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
+            temp_path = fp.name
+            tts.save(temp_path)
+        playsound(temp_path)
+        os.remove(temp_path)
+    except Exception as e:
+        print("TTS error:", e)

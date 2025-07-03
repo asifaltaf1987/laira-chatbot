@@ -1,3 +1,5 @@
+import streamlit as st
+
 def display_thoughts(query, tool_used=None):
     st.markdown("---")
     msg = f"🧠 **Thoughts**: Retrieved relevant context for: *{query}*"
