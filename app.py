@@ -50,17 +50,17 @@ else:
 
 # Response
 if st.button("Submit") and query:
-with st.spinner("Thinking..."):
-    retriever_chain = ConversationalRetrievalChain.from_llm(
-        llm=llm,
-        retriever=vectorstore.as_retriever(),
-        memory=memory
-    )
-    response = retriever_chain.run(query)
+    with st.spinner("Thinking..."):
+        retriever_chain = ConversationalRetrievalChain.from_llm(
+            llm=llm,
+            retriever=vectorstore.as_retriever(),
+            memory=memory
+        )
+        response = retriever_chain.run(query)
 
-st.markdown(f"### 🤖 Response:\n{response}")
-display_thoughts(query, tool_used="RAG Vector Retrieval")
-text_to_speech(response)
+    st.markdown(f"### 🤖 Response:\n{response}")
+    display_thoughts(query, tool_used="RAG Vector Retrieval")
+    text_to_speech(response)
 
 # Show full memory
 with st.expander("🧠 Conversation History"):
