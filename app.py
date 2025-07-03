@@ -1,46 +1,54 @@
+# enhanced_library_bot/app.py
+
+import streamlit as st
+from langchain.chains import ConversationalRetrievalChain
+from langchain.chat_models import ChatOpenAI
+from langchain.vectorstores import Chroma
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.memory import ConversationBufferMemory
+from langchain.agents import initialize_agent, Tool
+from tools.google_search import google_search
+from tools.scholar_search import scholar_search
+from tools.catalog_search import catalog_search
+from tools.speech_module import recognize_speech, text_to_speech
+from utils.thought_logger import display_thoughts
 import os
-import streamlit as st
 
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+st.set_page_config(page_title="Library AI Assistant", layout="wide")
+st.title("📚 Library AI Assistant")
 
-import streamlit as st
-import pandas as pd
-import json
+# Set API keys and environment
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+embedding = OpenAIEmbeddings()
+vectorstore = Chroma(persist_directory="db", embedding_function=embedding)
+llm = ChatOpenAI(temperature=0, model_name="gpt-4")
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-from langchain_core.documents import Document
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain_community.chat_models import ChatOpenAI
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.chains import RetrievalQA
-from langchain.agents import initialize_agent, AgentType
+# Tools
+tools = [
+    Tool(name="Google Search", func=google_search, description="Searches Google for current info"),
+    Tool(name="Scholar", func=scholar_search, description="Searches Google Scholar"),
+    Tool(name="Catalog", func=catalog_search, description="Searches Library Catalog")
+]
+agent = initialize_agent(tools, llm, agent="zero-shot-react-description", memory=memory, verbose=True)
 
-from tools import search_primo, search_google_scholar, search_libguides
+# Input options
+input_mode = st.radio("Choose Input Mode", ["🧾 Text", "🎤 Voice"])
+if input_mode == "🎤 Voice":
+    query = recognize_speech()
+    st.info(f"Recognized: {query}")
+else:
+    query = st.text_input("Ask me anything about the library, research, or resources:", "What are the library hours?")
 
-# Load FAQ from JSON
-with open("faq_chatbot_ready.json", "r") as f:
-    faq_data = json.load(f)
+# Response
+if st.button("Submit") and query:
+    retriever_chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vectorstore.as_retriever(), memory=memory)
+    response = retriever_chain.run(query)
+    st.markdown(f"### 🤖 Response:\n{response}")
+    display_thoughts(query)
+    text_to_speech(response)
 
-# Convert FAQ into documents
-docs = [Document(page_content=f"Q: {item['question']}\nA: {item['answer']}") for item in faq_data]
-
-# Split, embed, and store documents
-split_docs = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100).split_documents(docs)
-embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-vectordb = FAISS.from_documents(split_docs, embedding)
-qa_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(), retriever=vectordb.as_retriever())
-
-# Agent setup
-tools = [search_primo, search_google_scholar, search_libguides]
-agent = initialize_agent(tools, ChatOpenAI(), agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
-
-# Streamlit UI
-st.set_page_config(page_title="Ask LAIRA")
-st.title("📚 Ask LAIRA - Library AI Chatbot")
-query = st.text_input("Ask me a question:")
-
-if query:
-    if any(keyword in query.lower() for keyword in ["article", "find", "search"]):
-        st.markdown(agent.run(query))
-    else:
-        st.markdown(qa_chain.run(query))
+# Show full memory
+with st.expander("🧠 Conversation History"):
+    for msg in memory.chat_memory.messages:
+        st.markdown(f"**{msg.type.capitalize()}:** {msg.content}")
