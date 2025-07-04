@@ -17,4 +17,4 @@ faiss-cpu
 requests
 beautifulsoup4
 langdetect==1.0.9
-pillow==10.0.1
+pillow==9.5.0  # ✅ stable version that avoids build errors
