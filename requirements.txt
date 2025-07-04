@@ -6,13 +6,18 @@ python-dotenv
 tqdm
 sentence-transformers
 PyPDF2
-gTTS
-SpeechRecognition
-pyaudio
+gTTS==2.5.1
+SpeechRecognition==3.10.1
 google-api-python-client
 serpapi
-scholarly
+git+https://github.com/scholarly-python-package/scholarly.git
 playsound==1.2.2
 faiss-cpu
 requests
 beautifulsoup4
+langdetect==1.0.9  # NEW: for multilingual support
+pillow==10.3.0     # NEW: for image/avatar support
+langchain-community==0.0.26
+playsound==1.2.2  # Optional now
+tiktoken==0.6.0
+
