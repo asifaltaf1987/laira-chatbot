@@ -1,34 +1,44 @@
-# enhanced_library_bot/app.py
+# laira/app.py
 
 import streamlit as st
 from PIL import Image
-from langchain.chains import ConversationalRetrievalChain
+import os
+from langdetect import detect
+
 from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.memory import ConversationBufferMemory
 from langchain.agents import initialize_agent, Tool
+from langchain.docstore.document import Document
+from langchain.chains import RetrievalQA
+from langchain.document_loaders import WebBaseLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
 from tools.google_search import google_search
 from tools.scholar_search import scholar_search
 from tools.catalog_search import catalog_search
-from tools.speech_module import recognize_speech, text_to_speech
-from utils.thought_logger import display_thoughts
+from tools.speech_module import text_to_speech
 from tools.web_scraper import web_scrape_summary
-from langchain.docstore.document import Document
-import os
+from utils.thought_logger import display_thoughts
 
+# Page config
 st.set_page_config(page_title="Laira", layout="wide")
 
-# Header Avatar and Greeting
+# Header with avatar
 col1, col2 = st.columns([1, 8])
 with col1:
-    avatar = Image.open("static/avatar.png")  # Place avatar image at /static/avatar.png
-    st.image(avatar, width=75)
+    avatar_path = "static/avatar.png"
+    if os.path.exists(avatar_path):
+        avatar = Image.open(avatar_path)
+        st.image(avatar, width=75)
+    else:
+        st.warning("⚠️ Avatar not found.")
 with col2:
     st.markdown("## Laira")
-    st.markdown("Hello! I am Laira, an AI assistant at RCSI Bahrain Library. How can I help you today?")
+    st.markdown("Hi! I'm Laira, your multilingual digital library assistant at RCSI Bahrain Library. Ask me anything about research, resources, or services — in any language you prefer!")
 
-# Predefined Quick Buttons
+# Quick question buttons
 col1, col2, col3 = st.columns(3)
 with col1:
     if st.button("Help me find an article"):
@@ -51,57 +61,100 @@ with col6:
     if st.button("Community members"):
         st.session_state.query = "Who can use library services?"
 
-# API keys and vector setup
+# OpenAI setup
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 embedding = OpenAIEmbeddings()
-docs = [Document(page_content="Welcome to the library FAQ chatbot")]
-vectorstore = FAISS.from_documents(docs, embedding)
-llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, temperature=0, model_name="gpt-4")
-memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-# Tools
+# RCSI website sources for live scraping
+urls = [
+    "https://rcsi-mub.alma.exlibrisgroup.com/discovery/search?vid=968RCSI_INST:968RCSI",
+    "https://www.rcsi.com/bahrain/library",
+    "https://libguides.rcsi-mub.com",
+    "https://libguides.rcsi-mub.com/az.php",
+    "https://rcsi-bh.libcal.com/reserve/studyrooms",
+    "https://libguides.rcsi-mub.com/appointments",
+    "https://libguides.rcsi-mub.com/faq",
+    "https://libguides.rcsi-mub.com/researchvideos"
+]
+
+# Load, chunk, and embed live documents
+loader = WebBaseLoader(urls)
+raw_docs = loader.load()
+splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
+docs = splitter.split_documents(raw_docs)
+vectorstore = FAISS.from_documents(docs, embedding)
+
+# Build memory + retrieval QA
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+retrieval_chain = RetrievalQA.from_chain_type(llm=ChatOpenAI(openai_api_key=OPENAI_API_KEY, model_name="gpt-4"), retriever=vectorstore.as_retriever())
+
+# System prompt
+system_prompt = (
+    "You are LAIRA, a friendly and helpful multilingual AI assistant at RCSI Bahrain Library. "
+    "Answer in the same language as the question. Provide clickable links, ask clarifying questions when needed, "
+    "and say 'I don't know' if unsure. Stay in your librarian persona."
+)
+
+llm = ChatOpenAI(
+    openai_api_key=OPENAI_API_KEY,
+    temperature=0,
+    model_name="gpt-4"
+)
+
 tools = [
+    Tool(name="Library Knowledge Base", func=retrieval_chain.run, description="Answers using RCSI Bahrain library website content"),
     Tool(name="Google Search", func=lambda q: google_search(q, st.session_state.get("search_mode", "library")), description="Searches Google"),
     Tool(name="Scholar", func=scholar_search, description="Searches Google Scholar"),
     Tool(name="Catalog", func=catalog_search, description="Searches Library Catalog"),
-    Tool(name="Web Scraper", func=web_scrape_summary, description="Scrapes public websites for current info")
+    Tool(name="Web Scraper", func=web_scrape_summary, description="Scrapes websites for current info")
 ]
+
 agent = initialize_agent(tools, llm, agent="zero-shot-react-description", memory=memory, verbose=True)
 
-# Input
-input_mode = st.radio("Choose Input Mode", ["🧾 Text", "🎤 Voice"])
-query = st.session_state.get("query", "")
-if input_mode == "🎤 Voice":
-    query = recognize_speech()
-    st.info(f"Recognized: {query}")
-else:
-    query = st.text_input("Ask me anything about the library, research, or resources:", value=query)
+# Initialize chat history
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
 
-# Response logic
-if st.button("Submit") and query:
-    with st.spinner("Thinking..."):
-        retriever_chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vectorstore.as_retriever(), memory=memory)
-        response = retriever_chain.run(query)
-        used_tool = "RAG Vector Retrieval"
-
-        if any(k in query.lower() for k in ["book", "article", "journal", "ebook", "find in library", "full text", "textbook"]):
-            response = catalog_search(query)
-            used_tool = "Catalog"
-        elif any(k in query.lower() for k in ["scholar", "research", "citation"]):
-            response = scholar_search(query)
-            used_tool = "Google Scholar"
-        elif any(p in response.lower() for p in ["i don't have", "no relevant", "not sure", "sorry", "don't know", "cannot help"]):
-            response = google_search(query, mode="global")
-            used_tool = "Google Search"
+# Render conversation
+st.markdown("## 💬 Chat with Laira")
+for sender, message in st.session_state.chat_history:
+    with st.container():
+        if sender == "user":
+            st.markdown(
+                f"""
+                <div style='background-color:#f1f3f6;padding:12px;border-radius:10px;margin:10px 0;display:flex;align-items:center;'>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/user.png" width="32" style="margin-right:10px;">
+                    <div><strong>You:</strong><br>{message}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
         else:
-            response = web_scrape_summary(query)
-            used_tool = "Web Scraper"
+            st.markdown(
+                f"""
+                <div style='background-color:#e8f0fe;padding:12px;border-radius:10px;margin:10px 0;display:flex;align-items:center;'>
+                    <img src="static/avatar.png" width="32" style="border-radius:50%;margin-right:10px;">
+                    <div><strong>Laira:</strong><br>{message}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
-    st.markdown(f"### 🤖 Response:\n{response}")
-    display_thoughts(query, tool_used=used_tool)
-    text_to_speech(response)
+# Input field
+with st.form(key="chat_input_form", clear_on_submit=True):
+    user_input = st.text_input("Ask me anything!", placeholder="Ask me anything about the library...")
+    submitted = st.form_submit_button("➔")
 
-# Memory Display
-with st.expander("🧠 Conversation History"):
-    for msg in memory.chat_memory.messages:
-        st.markdown(f"**{msg.type.capitalize()}:** {msg.content}")
+if submitted and user_input:
+    with st.spinner("Thinking..."):
+        result = agent.run(user_input)
+        response = result.get("output", str(result)) if isinstance(result, dict) else str(result)
+        st.session_state.chat_history.append(("user", user_input))
+        st.session_state.chat_history.append(("assistant", response))
+        display_thoughts(user_input, tool_used="Agent")
+
+# Auto-submit if button query was triggered
+if "query" in st.session_state and st.session_state.query:
+    user_input = st.session_state.query
+    st.session_state.query = ""
+    submitted = True
