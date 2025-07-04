@@ -1,6 +1,7 @@
 openai
 streamlit
 langchain
+langchain-community==0.0.26
 chromadb
 python-dotenv
 tqdm
@@ -15,9 +16,9 @@ playsound==1.2.2
 faiss-cpu
 requests
 beautifulsoup4
-langdetect==1.0.9  # NEW: for multilingual support
-pillow==10.3.0     # NEW: for image/avatar support
-langchain-community==0.0.26
-playsound==1.2.2  # Optional now
-tiktoken==0.6.0
+langdetect==1.0.9
+pillow==10.2.0
+tiktoken==0.5.1
+
+
 
